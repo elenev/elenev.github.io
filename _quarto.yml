@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Vadim Elenev"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - cv.md
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
