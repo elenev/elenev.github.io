@@ -1,0 +1,61 @@
+---
+title: "CV"
+---
+
+# Academic Positions
+
+Johns Hopkins University Carey Business School, Baltimore, MD
+
+ - Assistant Professor, 2017 - Present
+
+Federal Reserve Bank of St. Louis, St. Louis, MO
+
+ - Visiting Scholar, 2018
+
+# Education
+
+New York University Stern School of Business, New York, NY
+
+- Ph.D. in Finance, 2011-2017
+
+University of Virginia, Charlottesville, VA
+
+- B.A. in Economics and Mathematics, 2005-2009
+
+# Research Interests
+
+Macro Finance: financial intermediation, monetary policy, real estate
+
+# Peer-Reviewed Publications
+
+```{python}
+pubs = [{'title':
+        }]
+```
+
+# Working Papers
+
+# Works in Progress
+
+# Grants
+
+# Awards, Honors, and Fellowships
+
+# Teaching Experience
+
+# Presentations
+
+# Conference Discussions
+
+# Professional Service
+
+# Doctoral Advising
+
+# University Service
+
+# Professional Affiliations
+
+# Other Employment
+
+# Personal
+
