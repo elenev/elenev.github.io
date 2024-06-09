@@ -1,0 +1,335 @@
+presentations:
+    - paper: Asset Pricing with Optimal Under-Diversification
+      talks:
+          - venue: Midwest Finance Association
+            location: Chicago, IL
+            type: Conference
+            date: Mar 2024
+          - venue: Utah Winter Finance Conference
+            location: Snowbird, UT
+            type: Conference
+            date: Feb 2024
+            coauthor: true
+          - venue: American Finance Association
+            location: San Antonio, TX
+            type: Conference
+            date: Jan 2024
+          - venue: European Finance Association
+            location: Amsterdam, The Netherlands
+            type: Conference
+            date: Aug 2023
+          - venue: Western Finance Association
+            location: San Francisco, CA
+            type: Conference
+            date: Jun 2023
+          - venue: Minnesota Macro and Asset Pricing
+            location: Minneapolis, MN
+            type: Conference
+            date: May 2023
+            coauthor: true
+          - venue: Adam Smith Workshop
+            location: Oxford, U.K.
+            type: Conference
+            date: Apr 2023
+            coauthor: true
+          - venue: Hong Kong University
+            location: Virtual
+            type: Seminar
+            date: Apr 2023
+          - venue: German Economists Abroad
+            location: Mannheim, Germany
+            type: Conference
+            date: Dec 2023
+            coauthor: true
+          - venue: ITAM
+            location: Mexico City, Mexico
+            type: Seminar
+            date: Oct 2023
+          - venue: UVa Darden
+            location: Charlottesville, VA
+            type: Seminar
+            date: Sep 2023
+    - paper: Can Monetary Policy Create Fiscal Capacity?
+      talks:
+          - venue: American Economic Association
+            location: New Orleans, LA
+            type: Conference
+            date: Jan 2023
+          - venue: Nebraska
+            location: Lincoln, NE
+            type: Seminar
+            date: Sep 2022
+          - venue: European Finance Association
+            location: Barcelona, Spain
+            type: Conference
+            date: Aug 2022
+            coauthor: true
+          - venue: Minnesota Macro Workshop
+            location: Minneapolis, MN
+            type: Conference
+            date: Jul 2022
+            coauthor: true
+          - venue: Society of Economic Dynamics
+            location: Madison, WI
+            type: Conference
+            date: Jun 2022
+            coauthor: true
+          - venue: Western Finance Association
+            location: Portland, OR
+            type: Conference
+            date: Jun 2022
+            coauthor: true
+          - venue: Financial Intermediary Research Society
+            location: Budapest, Hungary
+            type: Conference
+            date: Jun 2022
+          - venue: USC Marshall
+            location: Los Angeles, CA
+            type: Seminar
+            date: Apr 2022
+          - venue: Tepper LAEF Advances in Macro Finance
+            location: Santa Barbara, CA
+            type: Conference
+            date: Apr 2022
+          - venue: Adam Smith Workshop
+            location: Fontainebleau, France
+            type: Conference
+            date: Apr 2022
+            coauthor: true
+          - venue: UNC Jackson Hole Winter Finance
+            location: Teton Village, WY
+            type: Conference
+            date: Jan 2022
+          - venue: Carnegie Mellon Tepper
+            location: Virtual
+            type: Seminar
+            date: Oct 2021
+    - paper: Can the Covid Bailouts Save the Economy?
+      talks:
+          - venue: Economic Policy Panel Meeting
+            location: Virtual
+            type: Conference
+            date: Apr 2021
+            coauthor: true
+          - venue: American Finance Association
+            location: Virtual 
+            type: Conference
+            date: Jan 2021
+            coauthor: true
+          - venue: Bank of Portugal
+            location: Virtual
+            type: Seminar
+            date: Nov 2020
+          - venue: IMF Annual Research Conference
+            location: Virtual
+            type: Conference
+            date: Nov 2020
+          - venue: Melbourne
+            location: Virtual
+            type: Seminar
+            date: Aug 2020
+          - venue: Midwest Finance Association
+            location: Virtual
+            type: Keynote
+            date: Jan 1900
+            coauthor: true
+    - paper: A Macroeconomic Model with Financially Constrained Producers and Intermediaries
+      talks:
+          - venue: Michigan Ross
+            location: Ann Arbor, MI
+            type: Seminar
+            date: Nov 2019
+          - venue: McGill Desautels
+            location: Montreal, Quebec
+            type: Seminar
+            date: Aug 2019
+          - venue: Financial Intermediation Research Society
+            location: Savannah, GA
+            type: Conference
+            date: May 2019
+            coauthor: true
+          - venue: ECB Research Workshop
+            location: Frankfurt am Main, Germany
+            type: Conference
+            date: Dec 2018
+            coauthor: true
+          - venue: NBER Summer Institute
+            location: Cambridge, MA
+            type: Conference
+            date: Jul 2018
+            coauthor: true
+          - venue: German Economists Abroad
+            location: Frankfurt am Main, Germany
+            type: Conference
+            date: Dec 2017
+            coauthor: true
+          - venue: Bank of Canada Financial Stability Monetary Policy
+            location: Ottawa, Canada
+            type: Conference
+            date: Nov 2017
+            coauthor: true
+          - venue: Joint Central Bankers
+            location: Cleveland, OH
+            type: Conference
+            date: Nov 2017
+            coauthor: true
+          - venue: Computing in Economics and Finance
+            location: New York, NY
+            type: Conference
+            date: Jun 2017
+          - venue: Macro Finance Society IX Workshop
+            location: Chicago, IL
+            type: Conference
+            date: May 2017
+          - venue: International Conference on Financial Markets and Macroeconomic Performance
+            location: Frankfurt am Main, Germany
+            type: Conference
+            date: May 2017
+            coauthor: true
+          - venue: FRBSF Conference on Macroeconomics and Monetary Policy
+            location: San Francisco, CA
+            type: Conference
+            date: Mar 2017
+            coauthor: true
+          - venue: UNC Jackson Hole Winter Finance
+            location: Teton Village, WY
+            type: Conference
+            date: Jan 2017
+            coauthor: true
+          - venue: American Finance Association
+            location: Chicago, IL
+            type: Conference
+            date: Jan 2017
+            coauthor: true
+          - venue: Tepper LAEF Advances in Macro Finance
+            location: Pittsburgh, PA
+            type: Conference
+            date: Sep 2016
+          - venue: Riksbank Conference on Interconnected Financial Systems
+            location: Stockholm, Sweden
+            type: Keynote
+            date: Sep 2016
+            coauthor: true
+          - venue: ESSFM Gerzensee
+            location: Switzerland
+            type: Conference
+            date: Jul 2016
+            coauthor: true
+          - venue: Econometric Society North American Summer Meeting
+            location: Philadelphia, PA
+            type: Conference
+            date: Jun 2016
+          - venue: Society for Economic Dynamics
+            location: Toulouse, France
+            type: Conference
+            date: Jun 2016
+            coauthor: true
+    - paper: Quantitative Tightening
+      talks:
+          - venue: DC-Area Juniors
+            location: Washington, DC
+            type: Conference
+            date: May 2019
+          - venue: American Real Estate and Urban Economics Association
+            location: Washington DC
+            type: Conference
+            date: May 2019
+          - venue: UMBC
+            location: Catonsville, MD
+            type: Seminar
+            date: Apr 2019
+          - venue: UNC Junior Finance Roundtable
+            location: Chapel Hill, NC
+            type: Conference
+            date: Mar 2019
+          - venue: American Economic Association
+            location: San Diego, CA
+            type: Conference
+            date: Jan 2019
+            coauthor: true
+    - paper: Mortgage Credit, Aggregate Demand, and Unconventional Monetary Policy
+      talks:
+          - venue: JHU Applied Math
+            location: Baltimore, MD
+            type: Seminar
+            date: Mar 2019
+          - venue: JHU Econ
+            location: Baltimore, MD
+            type: Seminar
+            date: Apr 2018
+          - venue: CUNY Baruch
+            location: New York, NY
+            type: Seminar
+            date: Nov 2017
+          - venue: Penn State Smeal
+            location: State College, PA
+            type: Seminar
+            date: Oct 2017
+          - venue: Syracuse Whitman
+            location: Syracuse, NY
+            type: Seminar
+            date: Feb 2017
+          - venue: Wharton
+            location: Philadelphia, PA
+            type: Seminar
+            date: Feb 2017
+          - venue: UCSD Rady
+            location: La Jolla, CA
+            type: Seminar
+            date: Feb 2017
+          - venue: Washington University Olin
+            location: Clayton, MO
+            type: Seminar
+            date: Feb 2017
+          - venue: Imperial College
+            location: London, U.K.
+            type: Seminar
+            date: Feb 2017
+          - venue: London Business School
+            location: London, U.K.
+            type: Seminar
+            date: Feb 2017
+          - venue: Johns Hopkins Carey
+            location: Baltimore, MD
+            type: Seminar
+            date: Jan 2017
+    - paper: Phasing Out the GSEs
+      talks:
+          - venue: Western Finance Association
+            location: Park City, UT
+            type: Conference
+            date: Jun 2016
+            coauthor: true
+          - venue: American Real Estate and Urban Economics Association
+            location: Washington, DC
+            type: Conference
+            date:       Jun 2016
+            coauthor: true
+          - venue: Lusk Research Symposium
+            location: Los Angeles, CA
+            type: Conference
+            date: Mar 2016
+            coauthor: true
+          - venue: American Economics Association
+            location: San Francisco, CA 
+            type: Conference
+            date: Jan 2016
+            coauthor: true
+          - venue: Carnegie-Rochester-NYU
+            location: Pittsburgh, PA
+            type: Conference
+            date: Nov 2015
+            coauthor: true
+          - venue: Housing-Urban-Labor-Macro
+            location: Chicago, IL
+            type: Conference
+            date: Oct 2015
+            coauthor: true
+          - venue: Wharton Liquidity
+            location: Philadelphia, PA
+            type: Conference
+            date: Oct 2015
+          - venue: Econometric Society World Congress
+            location: Montreal, Quebec
+            type: Conference
+            date: Aug 2015
