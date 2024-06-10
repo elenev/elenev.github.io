@@ -1,0 +1,846 @@
+identity:
+    name: Vadim Elenev
+    email: velenev@jhu.edu
+    phone: +1.914.426.4604
+    website: www.vadimelenev.com
+    
+    address:
+     - 3306 Clyde St
+     - Baltimore, MD 21224
+     
+    profiles:
+     - network: SSRN
+       url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2379660
+     - network: Google Scholar
+       url: https://scholar.google.com/citations?user=klSKBaEAAAAJ&hl=en&oi=sra
+     - network: GitHub
+       url: https://github.com/elenev
+    
+academic-positions:
+    - institution: Johns Hopkins Carey Business School
+      location: Baltimore, MD
+      positions:
+        - title: Associate Professor (without tenure)
+          dates: Aug 2024-
+        - title: Assistant Professor
+          dates: Aug 2017-Present
+          
+    - institution: Federal Reserve Bank of St. Louis
+      location: St. Louis, MO
+      positions:
+        - title: Visiting Scholar
+          dates: "2018"
+    
+education:
+    - institution: New York University Stern School of Business
+      location: New York, NY
+      degrees:
+        - title: Ph.D. in Finance
+          dates: "2011-2017"
+    
+    - institution: University of Virginia
+      location: Charlottesville, VA
+      degrees:
+        - title: B.A. in Economics and Mathematics
+          dates: "2005-2009"
+
+research-interests: "Macro Finance: financial intermediation, monetary policy, real estate"
+
+publications:
+    - title: A Macroeconomic Model with Financially Constrained Producers and Intermediaries
+      coauthors: Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh
+      journal: Econometrica
+      biblio: "May 2021, Vol. 89, Issue 3: 1361-1418"
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2748230
+        - text: Journal
+          href: https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA16438
+        - text: Code
+          href: https://github.com/elenev/MacroModelProducersIntermediaries
+      abstract: > 
+        How much capital should financial intermediaries hold? We propose a general equilibrium model
+        with a financial sector that makes risky long-term loans to firms, funded by deposits from savers. 
+        Government guarantees create a role for bank capital regulation. The model captures the sharp 
+        and persistent drop in macro-economic aggregates and credit provision as well as the sharp 
+        change in credit spreads observed during financial crises. Policies requiring intermediaries 
+        to hold more capital reduce financial fragility, reduce the size of the financial and 
+        non-financial sectors, and lower intermediary profits. They redistribute wealth from savers 
+        to the owners of banks and non-financial firms. Pre-crisis capital requirements are close 
+        to optimal. Counter-cyclical capital requirements increase welfare.
+    - title: "Fearing the Fed: How Wall Street Reads Main Street?"
+      coauthors: Vadim Elenev, Tzuo-Hann Law, Dongho Song, and Amir Yaron
+      journal: Journal of Financial Economics
+      biblio: Volume 153, 2024, 103790
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3092629
+        - text: Journal
+          href: https://www.sciencedirect.com/science/article/pii/S0304405X24000138
+      abstract: > 
+        We provide strong evidence of a countercyclical sensitivity of the stock market to major macroeconomic 
+        announcements. The most notable cyclical variation takes place within expansions: sensitivity is 
+        largest early in an expansion and essentially zero late in an expansion. By exploiting the 
+        comovement pattern between stocks and bonds around announcements, we show that the stock market 
+        sensitivity is large when the cash flow component of news is least offset by news about future 
+        risk-free rates. Observed fluctuations in stock sensitivities can be attributed to shifting 
+        perceptions of monetary policy responsiveness.
+    - title: Phasing out the GSEs
+      coauthors: Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh
+      journal: Journal of Monetary Economics
+      biblio: "August 2016, 81: 111-132"
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2588144
+        - text: Journal
+          href: https://www.sciencedirect.com/science/article/pii/S0304393216300332
+      abstract: >
+        We develop a new model of the mortgage market that emphasizes the role of the financial sector and 
+        the government. Risk tolerant savers act as intermediaries between risk averse depositors and impatient 
+        borrowers. Both borrowers and intermediaries can default. The government provides both mortgage 
+        guarantees and deposit insurance. Underpriced government mortgage guarantees lead to more and riskier 
+        mortgage originations and higher financial sector leverage. Mortgage crises occasionally turn into 
+        financial crises and government bailouts due to the fragility of the intermediaries’ balance sheets. 
+        Foreclosure crises beget fiscal uncertainty, further disrupting the optimal allocation of risk in 
+        the economy. Increasing the price of the mortgage guarantee “crowds in” the private sector, reduces 
+        financial fragility, leads to fewer but safer mortgages, lowers house prices, and raises mortgage 
+        and risk-free interest rates. Due to a more robust financial sector and less fiscal uncertainty, 
+        consumption smoothing improves and foreclosure rates fall. While borrowers are nearly indifferent 
+        to a world with or without mortgage guarantees, savers are substantially better off. While aggregate 
+        welfare increases, so does wealth inequality.
+    - title: Can the Covid Bailouts Save the Economy?
+      coauthors: Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh
+      journal: Economic Policy
+      biblio: "April 2022, Vol. 37, Issue 110: 277-330"
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3593108
+        - text: Journal
+          href: https://academic.oup.com/economicpolicy/article-abstract/37/110/277/6511436      
+      abstract: >
+        The covid-19 crisis has led to a sharp deterioration in firm and bank balance sheets. The government 
+        has responded with a massive intervention in corporate credit markets. We study equilibrium dynamics 
+        of macroeconomic quantities and prices, and how they are affected by this policy response. The 
+        interventions prevent a much deeper crisis by reducing corporate bankruptcies by about half and 
+        short-circuiting the doom loop between corporate and financial sector fragility. The additional 
+        fiscal cost is zero since programme spending replaces what would otherwise have been spent on financial 
+        sector bailouts. An alternative intervention that targets aid to firms at risk of bankruptcy prevents 
+        more bankruptcies at much lower fiscal cost, but only enjoys marginally higher welfare. Finally, we 
+        study longer-run consequences for firm leverage and intermediary health when pandemics become the 
+        new normal.
+    - title: "Staggered Health Policy Adoption: Spillover Effects and Their Implications"
+      coauthors: Vadim Elenev, Luis Quintero, Alessandro Rebucci, and Emilia Simeonova
+      journal: Accepted at Management Science
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3657594
+      abstract: >
+        This paper investigates the direct and spillover effects on mobility caused by the staggered adoption 
+        of Stay-at-Home orders (SHOs) implemented by U.S. counties to contain the spread of COVID-19. We 
+        find that mobility in neighboring counties declines by a third to a half as much as in the counties 
+        that first implement the SHOs. Further, these spillovers are concentrated in counties that share 
+        media markets with treated counties. Using directional mobility data, we find that declines in 
+        internal mobility in the neighbor counties account for a much larger proportion of the overall decline 
+        in mobility than decreases in traffic originating in the treated county and headed to the neighbor. 
+        Together, these results provide strong evidence that SHOs operate through information sharing and 
+        voluntary social distancing. Based on our estimates and a simple model of staggered SHO adoption, we 
+        construct counterfactual scenarios that separate the impact of policy coordination from that of adoption 
+        timing. We demonstrate that staggered implementation of SHO policies can yield mobility reductions that 
+        are larger than coordinated but delayed SHO policy adoption.
+
+working-papers:
+    - title: Deposit Concentration and Financial Stability
+      coauthors: Juliane Begenau, Vadim Elenev, and Tim Landvoigt
+    - title: Mortgage Structure and the Link Between Monetary Policy and Financial Stability
+      coauthors: Vadim Elenev, Lu Liu
+    - title: Asset Pricing with Optimal Under-Diversification
+      coauthors: Vadim Elenev, Tim Landvoigt
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236861
+      abstract: >
+        We study sources and implications of undiversified portfolios in a production-based asset pricing model 
+        with financial frictions. Households take concentrated positions in a single firm exposed to idiosyncratic 
+        shocks because managerial effort requires equity stakes, and because investors gain private benefits from 
+        concentrated holdings. Matching data on returns and portfolios, we find that the marginal investor 
+        optimally holds 45% of their portfolio in a single firm, incentivizing managerial effort that accounts 
+        for 4% of aggregate output. Investors derive control benefits equivalent to 3% points of excess return, 
+        rationalizing low observed returns on undiversified holdings in the data. A counterfactual world of 
+        full diversification would feature higher risk free rates, lower risk premiums on fully diversified and 
+        concentrated assets, less capital accumulation, yet higher consumption and welfare. Exposure to 
+        undiversified firm risk can explain approximately 40% of the level and 20% of the volatility of the 
+        equity premium. A targeted subsidy that decreases diversification improves welfare by increasing 
+        managerial effort and reducing financial frictions.
+    - title: Can Monetary Policy Create Fiscal Capacity?
+      coauthors: Vadim Elenev, Tim Landvoigt, Patrick Shultz, and Stijn Van Nieuwerburgh
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3896402
+      status: Reject and Resubmit at American Economic Review
+      abstract: >
+        Governments around the world have gone on a massive fiscal expansion in response to the GFC and Covid crises, 
+        increasing government debt to levels not seen in 75 years. How will this debt be repaid? What role do 
+        conventional and unconventional monetary policy play? We investigate debt sustainability in a New Keynesian 
+        model with an intermediary sector, realistic fiscal and monetary policy, endogenous convenience yields, 
+        and substantial risk premia. During a large economic crisis, increased government spending and lower tax 
+        revenue lead to a large rise in government debt and raise the risk of future tax increases. Quantitative 
+        easing (QE) contributes to lowering the debt/GDP ratio and reducing the risk of future tax increases. QE 
+        is state- and duration-dependent: while a temporary QE policy deployed in a crisis stimulates aggregate 
+        demand, permanent QE crowds out investment and lowers long-run output.
+    - title: Mortgage Credit, Aggregate Demand, and Unconventional Monetary Policy
+      coauthors: Vadim Elenev
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2951397
+      abstract: >
+        I develop a quantitative model of the mortgage market operating in an economy with financial frictions and 
+        nominal rigidities. I use this model to study the effectiveness of large-scale asset purchases (LSAPs) by 
+        a central bank as a tool of monetary policy. When negative shocks hit, homeowner and financial sector 
+        balance sheets are impaired, borrowing constraints bind, asset prices and aggregate demand drop, hampering 
+        the transmission of conventional monetary policy. LSAPs boost aggregate demand in a crisis by directing 
+        additional lending to homeowners, raising house prices, and establishing expectations of future financial 
+        stability. However, legacy household debt depresses output and consumption in recovery. In the long run, 
+        a commitment to ongoing use of LSAPs in crises reduces credit and business cycle volatility and 
+        redistributes resources from borrowers and intermediaries to savers.
+    - title: Quantitative Tightening
+      coauthors: Vadim Elenev, Miguel Faria e Castro, and Daniel Greenwald
+    
+
+works-in-progress:
+    - title: Reconstruction Land Ownership
+      coauthors: Vadim Elenev, Luke Stein, and Constantine Yannelis
+    - title: Transition Function Iteration
+      coauthors: Vadim Elenev, Tim Landvoigt
+    
+grants:
+    - name: "Carey General Research Support Fund Award"
+      amount: "$3K"
+      corecipients: "Tzuo-Hann Law, Dongho Song, and Amir Yaron"
+      year: "2022"
+    - name: "Carey General Research Support Fund Award"
+      amount: "$6K"
+      corecipients: "Luis Quintero, Alessandro Rebucci, and Emilia Simeonova"
+      year: "2021"
+    - name: Hopkins Business of Health Initiative Seed Grant
+      amount: $20K
+      corecipients: Luis Quintero, Alessandro Rebucci, and Emilia Simeonova
+      year: "2020"
+
+awards:
+    - name: Marshall Blume Prize (Wharton)
+      corecipients: Tim Landvoigt, Patrick Shultz, and Stijn Van Nieuwerburgh
+    - name: Faculty Excellence Award, 2020-21
+    - name: AREUEA Homer Hoyt Doctoral Dissertation Award (best dissertation in real estate)
+    - name: Best Discussant Award, IFSID Sixth Annual Conference
+    - name: NYU Stern Center for Real Estate Finance Research Fellowship
+    - name: NYU Stern Teaching Commendation
+    - name: David M. Graifman Memorial Award, Second Year Best Paper in Finance Runner-Up
+    - name: PhD Director’s Fellowship
+    - name: U.Va. Best Undergraduate Thesis in Economics
+
+teaching:
+    - institution: Johns Hopkins University Carey Business School
+      dates: 2017-Present
+      courses:
+        - title: Financial Institutions
+          role: Instructor
+          level: Masters
+        - title: Computational Finance
+          role: Instructor
+          level: Masters
+    - institution: New York University Stern School of Business
+      dates: "2013-2017"
+      courses:
+        - title: Debt Instruments
+          role: Instructor
+          level: Undergraduate
+    - institution: University of Virginia
+      dates: "2009"
+      courses:
+        - title: Anatomy of Financial Crises
+          role: Instructor
+          level: Undergraduate
+
+presentations:
+    - paper: Asset Pricing with Optimal Under-Diversification
+      talks:
+          - venue: Midwest Finance Association
+            location: Chicago, IL
+            type: Conference
+            date: Mar 2024
+          - venue: Utah Winter Finance Conference
+            location: Snowbird, UT
+            type: Conference
+            date: Feb 2024
+            coauthor: true
+          - venue: American Finance Association
+            location: San Antonio, TX
+            type: Conference
+            date: Jan 2024
+          - venue: European Finance Association
+            location: Amsterdam, The Netherlands
+            type: Conference
+            date: Aug 2023
+          - venue: Western Finance Association
+            location: San Francisco, CA
+            type: Conference
+            date: Jun 2023
+          - venue: Minnesota Macro and Asset Pricing
+            location: Minneapolis, MN
+            type: Conference
+            date: May 2023
+            coauthor: true
+          - venue: Adam Smith Workshop
+            location: Oxford, U.K.
+            type: Conference
+            date: Apr 2023
+            coauthor: true
+          - venue: Hong Kong University
+            location: Virtual
+            type: Seminar
+            date: Apr 2023
+          - venue: German Economists Abroad
+            location: Mannheim, Germany
+            type: Conference
+            date: Dec 2023
+            coauthor: true
+          - venue: ITAM
+            location: Mexico City, Mexico
+            type: Seminar
+            date: Oct 2023
+          - venue: UVa Darden
+            location: Charlottesville, VA
+            type: Seminar
+            date: Sep 2023
+    - paper: Can Monetary Policy Create Fiscal Capacity?
+      talks:
+          - venue: American Economic Association
+            location: New Orleans, LA
+            type: Conference
+            date: Jan 2023
+          - venue: Nebraska
+            location: Lincoln, NE
+            type: Seminar
+            date: Sep 2022
+          - venue: European Finance Association
+            location: Barcelona, Spain
+            type: Conference
+            date: Aug 2022
+            coauthor: true
+          - venue: Minnesota Macro Workshop
+            location: Minneapolis, MN
+            type: Conference
+            date: Jul 2022
+            coauthor: true
+          - venue: Society of Economic Dynamics
+            location: Madison, WI
+            type: Conference
+            date: Jun 2022
+            coauthor: true
+          - venue: Western Finance Association
+            location: Portland, OR
+            type: Conference
+            date: Jun 2022
+            coauthor: true
+          - venue: Financial Intermediary Research Society
+            location: Budapest, Hungary
+            type: Conference
+            date: Jun 2022
+          - venue: USC Marshall
+            location: Los Angeles, CA
+            type: Seminar
+            date: Apr 2022
+          - venue: Tepper LAEF Advances in Macro Finance
+            location: Santa Barbara, CA
+            type: Conference
+            date: Apr 2022
+          - venue: Adam Smith Workshop
+            location: Fontainebleau, France
+            type: Conference
+            date: Apr 2022
+            coauthor: true
+          - venue: UNC Jackson Hole Winter Finance
+            location: Teton Village, WY
+            type: Conference
+            date: Jan 2022
+          - venue: Carnegie Mellon Tepper
+            location: Virtual
+            type: Seminar
+            date: Oct 2021
+    - paper: Can the Covid Bailouts Save the Economy?
+      talks:
+          - venue: Economic Policy Panel Meeting
+            location: Virtual
+            type: Conference
+            date: Apr 2021
+            coauthor: true
+          - venue: American Finance Association
+            location: Virtual 
+            type: Conference
+            date: Jan 2021
+            coauthor: true
+          - venue: Bank of Portugal
+            location: Virtual
+            type: Seminar
+            date: Nov 2020
+          - venue: IMF Annual Research Conference
+            location: Virtual
+            type: Conference
+            date: Nov 2020
+          - venue: Melbourne
+            location: Virtual
+            type: Seminar
+            date: Aug 2020
+          - venue: Midwest Finance Association
+            location: Virtual
+            type: Keynote
+            date: Jan 1900
+            coauthor: true
+    - paper: A Macroeconomic Model with Financially Constrained Producers and Intermediaries
+      talks:
+          - venue: Michigan Ross
+            location: Ann Arbor, MI
+            type: Seminar
+            date: Nov 2019
+          - venue: McGill Desautels
+            location: Montreal, Quebec
+            type: Seminar
+            date: Aug 2019
+          - venue: Financial Intermediation Research Society
+            location: Savannah, GA
+            type: Conference
+            date: May 2019
+            coauthor: true
+          - venue: ECB Research Workshop
+            location: Frankfurt am Main, Germany
+            type: Conference
+            date: Dec 2018
+            coauthor: true
+          - venue: NBER Summer Institute
+            location: Cambridge, MA
+            type: Conference
+            date: Jul 2018
+            coauthor: true
+          - venue: German Economists Abroad
+            location: Frankfurt am Main, Germany
+            type: Conference
+            date: Dec 2017
+            coauthor: true
+          - venue: Bank of Canada Financial Stability Monetary Policy
+            location: Ottawa, Canada
+            type: Conference
+            date: Nov 2017
+            coauthor: true
+          - venue: Joint Central Bankers
+            location: Cleveland, OH
+            type: Conference
+            date: Nov 2017
+            coauthor: true
+          - venue: Computing in Economics and Finance
+            location: New York, NY
+            type: Conference
+            date: Jun 2017
+          - venue: Macro Finance Society IX Workshop
+            location: Chicago, IL
+            type: Conference
+            date: May 2017
+          - venue: International Conference on Financial Markets and Macroeconomic Performance
+            location: Frankfurt am Main, Germany
+            type: Conference
+            date: May 2017
+            coauthor: true
+          - venue: FRBSF Conference on Macroeconomics and Monetary Policy
+            location: San Francisco, CA
+            type: Conference
+            date: Mar 2017
+            coauthor: true
+          - venue: UNC Jackson Hole Winter Finance
+            location: Teton Village, WY
+            type: Conference
+            date: Jan 2017
+            coauthor: true
+          - venue: American Finance Association
+            location: Chicago, IL
+            type: Conference
+            date: Jan 2017
+            coauthor: true
+          - venue: Tepper LAEF Advances in Macro Finance
+            location: Pittsburgh, PA
+            type: Conference
+            date: Sep 2016
+            coauthor: true
+          - venue: Riksbank Conference on Interconnected Financial Systems
+            location: Stockholm, Sweden
+            type: Keynote
+            date: Sep 2016
+            coauthor: true
+          - venue: ESSFM Gerzensee
+            location: Switzerland
+            type: Conference
+            date: Jul 2016
+            coauthor: true
+          - venue: Econometric Society North American Summer Meeting
+            location: Philadelphia, PA
+            type: Conference
+            date: Jun 2016
+          - venue: Society for Economic Dynamics
+            location: Toulouse, France
+            type: Conference
+            date: Jun 2016
+            coauthor: true
+    - paper: Quantitative Tightening
+      talks:
+          - venue: DC-Area Juniors
+            location: Washington, DC
+            type: Conference
+            date: May 2019
+          - venue: American Real Estate and Urban Economics Association
+            location: Washington DC
+            type: Conference
+            date: May 2019
+          - venue: UMBC
+            location: Catonsville, MD
+            type: Seminar
+            date: Apr 2019
+          - venue: UNC Junior Finance Roundtable
+            location: Chapel Hill, NC
+            type: Conference
+            date: Mar 2019
+          - venue: American Economic Association
+            location: San Diego, CA
+            type: Conference
+            date: Jan 2019
+            coauthor: true
+    - paper: Mortgage Credit, Aggregate Demand, and Unconventional Monetary Policy
+      talks:
+          - venue: JHU Applied Math
+            location: Baltimore, MD
+            type: Seminar
+            date: Mar 2019
+          - venue: JHU Econ
+            location: Baltimore, MD
+            type: Seminar
+            date: Apr 2018
+          - venue: CUNY Baruch
+            location: New York, NY
+            type: Seminar
+            date: Nov 2017
+          - venue: Penn State Smeal
+            location: State College, PA
+            type: Seminar
+            date: Oct 2017
+          - venue: Syracuse Whitman
+            location: Syracuse, NY
+            type: Seminar
+            date: Feb 2017
+          - venue: Wharton
+            location: Philadelphia, PA
+            type: Seminar
+            date: Feb 2017
+          - venue: UCSD Rady
+            location: La Jolla, CA
+            type: Seminar
+            date: Feb 2017
+          - venue: Washington University Olin
+            location: Clayton, MO
+            type: Seminar
+            date: Feb 2017
+          - venue: Imperial College
+            location: London, U.K.
+            type: Seminar
+            date: Feb 2017
+          - venue: London Business School
+            location: London, U.K.
+            type: Seminar
+            date: Feb 2017
+          - venue: Johns Hopkins Carey
+            location: Baltimore, MD
+            type: Seminar
+            date: Jan 2017
+    - paper: Phasing Out the GSEs
+      talks:
+          - venue: Western Finance Association
+            location: Park City, UT
+            type: Conference
+            date: Jun 2016
+            coauthor: true
+          - venue: American Real Estate and Urban Economics Association
+            location: Washington, DC
+            type: Conference
+            date:       Jun 2016
+            coauthor: true
+          - venue: Lusk Research Symposium
+            location: Los Angeles, CA
+            type: Conference
+            date: Mar 2016
+            coauthor: true
+          - venue: American Economics Association
+            location: San Francisco, CA 
+            type: Conference
+            date: Jan 2016
+            coauthor: true
+          - venue: Carnegie-Rochester-NYU
+            location: Pittsburgh, PA
+            type: Conference
+            date: Nov 2015
+            coauthor: true
+          - venue: Housing-Urban-Labor-Macro
+            location: Chicago, IL
+            type: Conference
+            date: Oct 2015
+            coauthor: true
+          - venue: Wharton Liquidity
+            location: Philadelphia, PA
+            type: Conference
+            date: Oct 2015
+          - venue: Econometric Society World Congress
+            location: Montreal, Quebec
+            type: Conference
+            date: Aug 2015
+
+
+discussions:
+    - title: Inflation and Treasury Convenience
+      authors: Anna Cieslak, Carolin Pflueger, and Wenhao Li
+      venue: SFS Cavalcade
+      location: Atlanta, GA
+      date: "2024"
+    - title: Monetary Policy Wedges and the Long-term Liabilities of Households and Firms
+      authors: Jules H. van Binsbergen and Marco Grotteria
+      venue: Duke-UNC Asset Pricing Conference
+      location: Durham, NC
+      date: "2024"
+    - title: "Bailing out (Firms’) Uninsured Deposits: A Quantitative Analysis"
+      authors: N. Aaron Pancost and Roberto Robatto
+      venue: Midwest Finance Association Annual Meeting
+      location: Chicago, IL
+      date: "2024"
+    - title: Running Out of Time (Deposits)
+      authors: Dominik Supera
+      venue: Temple Fischer-Shain Center Research Conference
+      location: Philadelphia, PA
+      date: "2023"
+    - title: Leasing as a Mitigation Channel of Capital Misallocation
+      authors: Yiming Xu, Kai Li, and Weiwei Hu
+      venue: European Finance Association
+      location: Amsterdam, The Netherlands
+      date: "2023"
+    - title: Intermediary-Based Loan Pricing
+      authors: Pierre Mabille and Olivier Wang
+      venue: European Finance Association
+      location: Amsterdam, The Netherlands
+      date: "2023"
+    - title: A Monetary Policy Asset Pricing Model
+      authors: Ricardo Caballero and Alp Simsek
+      venue: Western Finance Association
+      location: San Francisco, CA
+      date: "2023"
+    - title: Household Debt Overhang and Human Capital Investment
+      authors: Gustavo Manso, Alejandro Rivera, Hui Wang, and Han Xia
+      venue: ASU Sonoran Winter Finance Conference
+      location: Phoenix, AZ
+      date: "2023"
+    - title: Uncertainty, Risk, and Capital Growth
+      authors: Gill Segal and Ivan Shaliastovich
+      venue: USC Macrofinance Conference
+      location: Los Angeles, CA
+      date: "2022"
+    - title: Pension Plan Systems and Asset Prices
+      authors: Nuno Coimbra, Francisco Gomes,Alexander Michaelides, Jialu Shen
+      venue: China International Conference in Macroeconomics
+      location: Virtual
+      date: "2022"
+    - title: Monetary Policy, Segmentation, and the Term Structure
+      authors: Rohan Kekre, Moritz Lenel, and Federico Mainardi
+      venue: China International Conference in Macroeconomics
+      location: Virtual
+      date: "2022"
+    - title: The Demand for Money, Near-Money, and Treasury Bonds
+      authors: Arvind Krushnamurthy and Wenhao Li
+      venue: Midwest Finance Association Annual Meeting
+      location: Chicago, IL
+      date: "2022"
+    - title: Spatial Implications of Telecommuting
+      authors: Matthew Delventhal and Andrii Parkhomenko
+      venue: American Real Estate and Urban Economics Association January Meeting
+      location: Virtual
+      date: "2021"
+    - title: Moral Hazard versus Liquidity in Household Bankruptcy
+      authors: Sasha Indarte
+      venue: Midwest Finance Association Annual Meeting
+      location: Virtual
+      date: "2021"
+    - title: The Structure of Economic News
+      authors: Leland Bybee, Bryan Kelly, Asaf Manela, and Dacheng Xiu
+      venue: Western Finance Association Annual Meeting
+      location: Virtual
+      date: "2020"
+    - title: "Financial inclusion, human capital, and wealth accumulation: Evidence from the Freedman’s Savings Bank"
+      authors: Luke Stein and Constantine Yannelis
+      venue: European Finance Association Annual Meeting
+      location: Carcavelos, Portugal
+      date: "2019"
+    - title: The Credit Channel of Fiscal Policy Transmission
+      authors: Andrew Bird, Stephen A. Karolyi, Stefan Lewellen, and Thomas Ruchti
+      venue: University of Oregon Summer Finance Conference
+      location: Eugene, OR
+      date: "2019"
+    - title: Foreseen Risks
+      authors: Joao Gomes, Marco Grotteria, and Jessica Wachter
+      venue: Financial Intermediation Research Society Annual Conference
+      location: Savannah, GA
+      date: "2019"
+    - title: Can Restrictions on Exotic Lending Dampen House Price Volatility? A Panel VAR Exploration
+      authors: Wayne R. Archer
+      venue: American Real Estate and Urban Economics Association January Meeting
+      location: Atlanta, GA
+      date: "2019"
+    - title: Time-varying Risk Premium and Unemployment Risk Across Age Groups
+      authors: Indrajit Mitra and Yu Xu
+      venue: European Finance Association Annual Meeting
+      location: Warsaw, Poland
+      date: "2018"
+    - title: Collateral Misreporting in the RMBS Market
+      authors: Sam Kruger and Gonzalo Maturana
+      venue: Midwest Finance Association Annual Meeting
+      location: San Antonio, TX
+      date: "2018"
+    - title: Treasury Yield Implied Volatility and Real Activity
+      authors: Martijn Cremers, Matthias Fleckenstein, and Priyank Gandhi
+      venue: IFSID Sixth Annual Conference
+      location: Montreal, Quebec
+      date: "2017"
+    - title: Tail Risk, Robust Portfolio Choice, and Asset Prices
+      authors: Xing Jin, Dan Luo, and Xudong Zeng
+      venue: European Finance Association Annual Meeting
+      location: Mannheim, Germany
+      date: "2017"
+    - title: Financial Sector Origins of Economic Growth Delusion
+      authors: Frederic Malherbe and Michael McMahon
+      venue: Western Finance Association Annual Meeting
+      location: Whistler, BC
+      date: "2017"
+    - title: A Quantitative Model of 'Too Big to Fail,' House Prices, and the Financial Crisis
+      authors: Omer Acikgoz and James Kahn
+      venue: NYC Real Estate Conference
+      location: New York, NY 
+      date: "2017"
+
+
+professional-service:
+    - title: Refereeing
+      items: 
+        - American Economic Review
+        - Journal of Political Economy
+        - Review of Economic Studies
+        - Journal of Finance
+        - Review of Financial Studies
+        - Journal of Financial Economics
+        - Journal of Monetary Economics
+        - "American Economic Journal: Macroeconomics"
+        - Management Science
+        - Review of Economic Dynamics
+        - The Journal of Financial and Quantitative Analysis
+        - Economica
+        - Journal of Money, Credit and Banking
+        - Macroeconomic Dynamics
+        - The Scandinavian Journal of Economics
+        - Journal of Financial Services Research
+        - Journal of Mathematical Economics
+    - title: Program Committee and Session Chair
+      items:
+        - AREUEA National Conference
+        - Western Finance Association Annual Meeting
+        - ASSA-AREUEA Conference
+        - JHU Carey Finance Conference 
+    - title: Conference Organizer
+      items:
+        - JHU Carey Finance Conference (2024)
+        - DC-Area Junior Finance Conference (2022)
+    - title: Award Committee
+      items: 
+        - AREUEA Homer Hoyt Prize
+        
+advising:
+    - institution: JHU Department of Economics Disserations -- Graduate Board Oral Examination Committee
+      advisees:
+        - name: Melih Firat
+          title: Essays on the Phillips Curve and the U.S. Monetary Spillovers
+          date: "2022"
+          placement:
+            role: Economist
+            institution: International Monetary Fund
+            location: Washington, DC
+        - name: Derin Askit
+          title: Essays on Unconventional Monetary Policies
+          date: "2021"
+          placement:
+            role: Senior Associate
+            institution: PricewaterhouseCoopers
+            location: Boston, MA
+        - name: Lalit Contractor
+          title: Essays on Frictions and Inefficiency in Housing and Regional Labour Markets
+          date: "2021"
+          placement:
+            role: Assistant Professor
+            institution: Ashoka University
+            location: Delhi, India
+        - name: Edmund Crawley
+          title: Essays on Consumption
+          date: "2019"
+          placement:
+            role: Economist
+            institution: Federal Reserve Board
+            location: Washington, DC
+        - name: Shujaat Khan
+          title: Essays on Debt and Heterogeneous Agent Macroeconomics
+          date: "2019"
+          placement:
+            role: Economist
+            institution: International Monetary Fund
+            location: Washington, DC
+        - name: Daniel Garcia
+          title: Essays on Credit Supply and Demand in the Housing Boom and Bust
+          date: "2018"
+          placement:
+            role: Economist
+            institution: Federal Reserve Board
+            location: Washington, DC
+            
+university-service:
+    - title: Carey Faculty Advisory Council
+      dates: 2023-Present
+    - title: Finance External Speaker Seminar Series Coordinator
+      dates: "2022-2023"
+    - title: Finance Internal Brownbag Seminar Series Coordinator	
+      dates: "2021-2022"
+    - title: Tenure-Track Faculty Search Committee (Finance)
+      dates: "2017-2022"
+    - title: Academic Ethics Board
+      dates: "2018-2023"
+    - title: Practice-Track Faculty Search Committee (Finance)
+      dates: "2021"
+    - title: Strategic IT Committee
+      dates: "2022-Present"
+    - title: FinTech Committee
+      dates: "2018"
+
+      
+memberships:
+    - American Economic Association
+    - American Finance Association
+    - American Real Estate and Urban Economics Association
+    - Econometric Society
+    - European Finance Association
+    - Macro Finance Society
+    - Western Finance Association
+    
+other-employment:
+    - institution: Cornerstone Research
+      title: Analyst
+      dates: "2009-2011"
+      
+personal:
+    - U.S. Citizen
+    - "Language Proficiency: English (native), Russian (native), French (basic)"
+       

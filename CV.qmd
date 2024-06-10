@@ -1,61 +1,251 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
+date: "6/10/2024"
+format:
+   html:
+        code-fold: true
+        echo: false
+        css: styles.css
+        other-links:
+        - icon: filetype-pdf
+          text: Download PDF
+          href: cv/main.pdf
+engine: julia
+
+callout-appearance: minimal
 ---
 
-# Academic Positions
+```{julia}
+#| echo: false
+using YAML
+cvyaml = read("cv/cv.yml", String)
+cvyaml = replace(cvyaml, "\t"=>" "^4) # YAML.jl can't handle tabs
+cvdata = YAML.load(cvyaml);
 
-Johns Hopkins University Carey Business School, Baltimore, MD
+notblank(d,k) = k ∈ keys(d) && d[k] != ""
 
- - Assistant Professor, 2017 - Present
+function print_paper(paper, presentations, type)
+    println("::: {.callout-$type collapse=\"true\"}")
+    print("## <span class=\"title-bold\">", paper["title"], "</span>")
+    print("<br><span class=\"authors-normal\">", paper["coauthors"], "</span>")
+    if notblank(paper,"journal")
+        println("<br><span class=\"journal-italic\">", paper["journal"], "</span>")
+    else
+        println()
+    end
 
-Federal Reserve Bank of St. Louis, St. Louis, MO
+    println("<p>")
 
- - Visiting Scholar, 2018
+    if notblank(paper,"urls")
+        for u in paper["urls"]
+            print(" [\\[", u["text"], "\\]](", u["href"], ")")
+            println("")
+        end
+    end
+    println("")
 
-# Education
+    if notblank(paper,"abstract")
+        println(paper["abstract"])
+    end
+    this_presentations = filter(p -> p["paper"] == paper["title"], presentations)
 
-New York University Stern School of Business, New York, NY
+    if this_presentations !== nothing && length(this_presentations) > 0
+        this_presentations = this_presentations[]
 
-- Ph.D. in Finance, 2011-2017
-
-University of Virginia, Charlottesville, VA
-
-- B.A. in Economics and Mathematics, 2005-2009
-
-# Research Interests
-
-Macro Finance: financial intermediation, monetary policy, real estate
-
-# Peer-Reviewed Publications
-
-```{python}
-pubs = [{'title':
-        }]
+        println("")
+        println("*Presentations:*")
+        println("")
+        
+        for pres in this_presentations["talks"]
+           if !notblank(pres,"coauthor") || !pres["coauthor"]
+              println(" - ", pres["venue"], ", ", pres["location"], ", ", pres["date"])
+           end
+        end
+        println("")
+    end
+    println("</p>\n:::")
+    println("")
+end;
 ```
 
-# Working Papers
+## Academic Positions
 
-# Works in Progress
+```{julia}
+#| output: asis
+for org in cvdata["academic-positions"]
+    println(org["institution"], " | ", org["location"])
+    println()
+    for p in org["positions"]
+        println(" - ", p["title"], " | ", p["dates"])
+    end
+    println()
+end
+```
 
-# Grants
+## Education
 
-# Awards, Honors, and Fellowships
+```{julia}
+#| output: asis
+for org in cvdata["education"]
+    println(org["institution"], " | ", org["location"])
+    println()
+    for p in org["degrees"]
+        println(" - ", p["title"], " | ", p["dates"])
+    end
+    println()
+end
+```
 
-# Teaching Experience
+## Publications
 
-# Presentations
+```{julia}
+#| output: asis
+map(paper -> print_paper(paper, cvdata["presentations"], "tip"), cvdata["publications"]);
+```
 
-# Conference Discussions
+## Working Papers
 
-# Professional Service
+```{julia}
+#| output: asis
+map(paper -> print_paper(paper, cvdata["presentations"], "note"), cvdata["working-papers"]);
+```
 
-# Doctoral Advising
+## Works in Progress
+```{julia}
+#| output: asis
+map(paper -> print_paper(paper, cvdata["presentations"], "caution"), cvdata["works-in-progress"]);
+```
 
-# University Service
+## Grants and Awards
 
-# Professional Affiliations
+### Grants
 
-# Other Employment
+```{julia}
+#| output: asis
+for grant in cvdata["grants"]
+    name = grant["name"]
+    year = grant["year"]
+    amt = grant["amount"]
+    println(" - $name ($amt), $year")
+    if notblank(grant,"corecipients")
+        corecipients = grant["corecipients"]
+        println("   - with ", corecipients)
+    end
+end
+```
 
-# Personal
+### Awards, Honors, and Fellowships
 
+```{julia}
+#| output: asis
+for award in cvdata["awards"]
+    name = award["name"]
+    println(" - $name")
+    if notblank(award,"corecipients")
+        corecipients = award["corecipients"]
+        println("   - with ", corecipients)
+    end
+end
+```
+
+## Teaching Experience
+
+```{julia}
+#| output: asis
+for org in cvdata["teaching"]
+    println(org["institution"], ", ", org["dates"])
+    println()
+    for p in org["courses"]
+        println(" - ", p["title"], ", *", p["role"],"*, ", p["level"])
+    end
+    println()
+end
+```
+
+## Conference Discussions
+
+```{julia}
+#| output: asis
+for d in cvdata["discussions"]
+    title = d["title"]
+    authors = d["authors"]
+    venue = d["venue"]
+    location = d["location"]
+    date = d["date"]
+    println(" - $title, by $authors")
+        println("   - $venue, $location, $date")
+end
+```
+
+## Service
+
+### Professional
+
+```{julia}
+#| output: asis
+for cat in cvdata["professional-service"]
+    title = cat["title"]
+    println("#### ", title)
+    println()
+    for it in cat["items"]
+        println(" - ", it)
+    end
+    println()
+end
+```
+
+
+
+### Doctoral Advising
+
+```{julia}
+#| output: asis
+for org in cvdata["advising"]
+    println(org["institution"])
+    println()
+    for s in org["advisees"]
+        println(" - ", s["name"], ", ", s["date"])
+        println("   - ", s["title"])
+
+        placement = s["placement"]
+        println("   - Placement: ", placement["role"], ", ", placement["institution"], ", ", placement["location"])
+    end
+end
+```
+
+### University
+
+```{julia}
+#| output: asis
+for u in cvdata["university-service"]
+    println(" - ", u["title"], ", ", u["dates"])
+end
+```
+
+## Professional Affiliations
+
+```{julia}
+#| output: asis
+for m in cvdata["memberships"]
+    println(" - $m")
+end
+```
+
+## Other Employment
+
+```{julia}
+#| output: asis
+for u in cvdata["other-employment"]
+    println(" - ", u["institution"], ", ", u["title"], ", ", u["dates"])
+end
+```
+
+
+## Personal
+
+```{julia}
+#| output: asis
+for line in cvdata["personal"]
+    println(" - $line")
+end
+```

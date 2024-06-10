@@ -3,15 +3,23 @@ project:
 
 website:
   title: "Vadim Elenev"
+  twitter-card:
+    creator: "@VadimElenev"
+  open-graph: true
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - cv.md
+      - href: CV.qmd
+        text: CV
+      - href: http://www.github.com/elenev
+        text: Code
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
     css: styles.css
     toc: true
 
