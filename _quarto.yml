@@ -23,6 +23,7 @@ website:
         text: Github
         href: https://github.com/elenev        
   back-to-top-navigation: true
+  google-analytics: UA-97196765-1
   
 
 format:
