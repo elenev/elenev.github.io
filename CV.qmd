@@ -9,7 +9,7 @@ format:
         other-links:
         - icon: filetype-pdf
           text: Download PDF
-          href: cv/main.pdf
+          href: resources/cv.pdf
 engine: julia
 
 callout-appearance: minimal
