@@ -9,7 +9,7 @@ engine: julia
 about:
   id: bio
   template: solana
-  image: resources/Headshot.jpg
+  image: resources/photo.jpg
   image-alt: Vadim Elenev
   links:
     - icon: envelope-at
