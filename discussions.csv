@@ -1,0 +1,89 @@
+match,group,is_participating,start,end,content
+1,1,yes,0,76,Monetary Policy Wedges and the Long-term Liabilities of Households and Firms
+1,2,yes,81,124,Jules H. van Binsbergen and Marco Grotteria
+1,3,yes,126,159,Duke-UNC Asset Pricing Conference
+1,4,yes,162,172,"Durham, NC"
+2,1,yes,174,238,Bailing out (Firms’) Uninsured Deposits: A Quantitative Analysis
+2,2,yes,243,279,N. Aaron Pancost and Roberto Robatto
+2,3,yes,281,323,Midwest Finance Association Annual Meeting
+2,4,yes,326,337,"Chicago, IL"
+3,1,yes,339,369,Running Out of Time (Deposits)
+3,2,yes,374,388,Dominik Supera
+3,3,yes,390,437,Temple Fischer-Shain Center Research Conference
+3,4,yes,440,456,"Philadelphia, PA"
+4,1,yes,458,514,Leasing as a Mitigation Channel of Capital Misallocation
+4,2,yes,519,547,"Yiming Xu, Kai Li, Weiwei Hu"
+4,3,yes,549,577,European Finance Association
+4,4,yes,580,606,"Amsterdam, The Netherlands"
+5,1,yes,608,639,Intermediary-Based Loan Pricing
+5,2,yes,644,675,Pierre Mabille and Olivier Wang
+5,3,yes,677,705,European Finance Association
+5,4,yes,708,734,"Amsterdam, The Netherlands"
+6,1,yes,736,773,A Monetary Policy Asset Pricing Model
+6,2,yes,778,810,Ricardo Caballero and Alp Simsek
+6,3,yes,812,839,Western Finance Association
+6,4,yes,842,859,"San Francisco, CA"
+7,1,yes,861,898,"Uncertainty, Risk, and Capital Growth"
+7,2,yes,903,936,Gill Segal and Ivan Shaliastovich
+7,3,yes,938,965,USC Macrofinance Conference
+7,4,yes,968,983,"Los Angeles, CA"
+8,1,yes,985,1022,Pension Plan Systems and Asset Prices
+8,2,yes,1027,1092,"Nuno Coimbra, Francisco Gomes,Alexander Michaelides, Jialu Shen"
+8,3,yes,1094,1142,China International Conference in Macroeconomics
+8,4,yes,1145,1152,Virtual
+9,1,yes,1154,1207,"Monetary Policy, Segmentation, and the Term Structure"
+9,2,yes,1212,1260,"Rohan Kekre, Moritz Lenel, and Federico Mainardi"
+9,3,yes,1262,1310,China International Conference in Macroeconomics
+9,4,yes,1313,1320,Virtual
+10,1,yes,1322,1374,"The Demand for Money, Near-Money, and Treasury Bonds"
+10,2,yes,1379,1413,Arvind Krushnamurthy and Wenhao Li
+10,3,yes,1415,1457,Midwest Finance Association Annual Meeting
+10,4,yes,1460,1471,"Chicago, IL"
+11,1,yes,1473,1510,Spatial Implications of Telecommuting
+11,2,yes,1515,1556,Matthew Delventhal and Andrii Parkhomenko
+11,3,yes,1558,1626,American Real Estate and Urban Economics Association January Meeting
+11,4,yes,1629,1636,Virtual
+1,1,yes,1,31,The Structure of Economic News
+1,2,yes,36,87,"Leland Bybee, Bryan Kelly, Asaf Manela, Dacheng Xiu"
+1,3,yes,90,132,Western Finance Association Annual Meeting
+1,4,yes,135,142,Virtual
+2,1,yes,144,246,"Financial inclusion, human capital, and wealth accumulation: Evidence from the Freedman’s Savings Bank"
+2,2,yes,251,286,Luke Stein and Constantine Yannelis
+2,3,yes,289,332,European Finance Association Annual Meeting
+2,4,yes,335,355,"Carcavelos, Portugal"
+3,1,yes,357,405,The Credit Channel of Fiscal Policy Transmission
+3,2,yes,410,473,"Andrew Bird, Stephen A. Karolyi, Stefan Lewellen, Thomas Ruchti"
+3,3,yes,476,522,University of Oregon Summer Finance Conference
+3,4,yes,525,535,"Eugene, OR"
+4,1,yes,537,551,Foreseen Risks
+4,2,yes,556,604,"Joao Gomes, Marco Grotteria, and Jessica Wachter"
+4,3,yes,607,666,Financial Intermediation Research Society Annual Conference
+4,4,yes,669,681,"Savannah, GA"
+5,1,yes,683,772,Can Restrictions on Exotic Lending Dampen House Price Volatility? A Panel VAR Exploration
+5,2,yes,777,792,Wayne R. Archer
+5,3,yes,795,863,American Real Estate and Urban Economics Association January Meeting
+5,4,yes,866,877,"Atlanta, GA"
+6,1,yes,879,944,Time-varying Risk Premium and Unemployment Risk Across Age Groups
+6,2,yes,949,973,Indrajit Mitra and Yu Xu
+6,3,yes,976,1019,European Finance Association Annual Meeting
+6,4,yes,1022,1036,"Warsaw, Poland"
+7,1,yes,1038,1080,Collateral Misreporting in the RMBS Market
+7,2,yes,1085,1116,Sam Kruger and Gonzalo Maturana
+7,3,yes,1119,1161,Midwest Finance Association Annual Meeting
+7,4,yes,1164,1179,"San Antonio, TX"
+8,1,yes,1184,1235,Treasury Yield Implied Volatility and Real Activity
+8,2,yes,1240,1298,"Martijn Cremers, Matthias Fleckenstein, and Priyank Gandhi"
+8,3,yes,1301,1330,IFSID Sixth Annual Conference
+8,4,yes,1333,1349,"Montreal, Quebec"
+9,1,yes,1351,1403,"Tail Risk, Robust Portfolio Choice, and Asset Prices"
+9,2,yes,1408,1442,"Xing Jin, Dan Luo, and Xudong Zeng"
+9,3,yes,1445,1488,European Finance Association Annual Meeting
+9,4,yes,1491,1508,"Mannheim, Germany"
+10,1,yes,1510,1562,Financial Sector Origins of Economic Growth Delusion
+10,2,yes,1567,1604,Frederic Malherbe and Michael McMahon
+10,3,yes,1607,1649,Western Finance Association Annual Meeting
+10,4,yes,1652,1664,"Whistler, BC"
+11,1,yes,1666,1747,"A Quantitative Model of ‘Too Big to Fail,’ House Prices, and the Financial Crisis"
+11,2,yes,1752,1779,Omer Acikgoz and James Kahn
+11,3,yes,1782,1808,NYC Real Estate Conference
+11,4,yes,1811,1824,"New York, NY "
