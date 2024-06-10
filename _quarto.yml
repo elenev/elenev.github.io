@@ -7,6 +7,7 @@ website:
     creator: "@VadimElenev"
   open-graph: true
   navbar:
+    pinned: true
     left:
       - href: index.qmd
         text: Home
@@ -14,6 +15,15 @@ website:
         text: CV
       - href: http://www.github.com/elenev
         text: Code
+    tools:
+      - icon: filetype-pdf
+        text: CV [PDF]
+        href: resources/cv.pdf
+      - icon: github
+        text: Github
+        href: https://github.com/elenev        
+  back-to-top-navigation: true
+  
 
 format:
   html:
