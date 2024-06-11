@@ -86,8 +86,10 @@ ga('send', {
 <meta property="og:title" content="Vadim Elenev">
 <meta property="og:site_name" content="Vadim Elenev">
 <meta name="twitter:title" content="Vadim Elenev">
+<meta name="twitter:description" content="Vadim Elenev, Assistant Professor at Johns Hopkins Carey Business School working on macroeconomics and finance.">
+<meta name="twitter:image" content="https://www.vadimelenev.com/resources/photo.jpg">
 <meta name="twitter:creator" content="@VadimElenev">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -722,7 +724,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/elenev\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/www\.vadimelenev\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
