@@ -18,7 +18,7 @@ Note: Typst has an excellent [Overleaf-style web app](https://typst.app/) with a
 5. Edit `_quarto.yml` to customize the navigation bar links, Twitter card, Google Analytics, etc.
 6. Run `typst compile cv/main.typ` to generate a PDF version of your CV. Once you're happy with the result, move the PDF to `resources/cv.pdf`.
 7. Run `quarto preview` or use the GUI interface in VS Code to generate the website and make sure everything looks right.
-8. Run `quarto publish --to gh-pages` to publish the site to GitHub Pages. This will create/update a separate branch called `gh-pages` in your repository. You can configure `Pages` settings to serve the website from that repository. This keeps your `main` branch clean from the generated files.
+8. Run `quarto publish gh-pages` to publish the site to GitHub Pages. This will create/update a separate branch called `gh-pages` in your repository. You can configure `Pages` settings to serve the website from that repository. This keeps your `main` branch clean from the generated files.
 
 ## Customization
 
