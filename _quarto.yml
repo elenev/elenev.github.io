@@ -10,6 +10,7 @@ website:
     creator: "@VadimElenev"
     description: "Vadim Elenev, Assistant Professor at Johns Hopkins Carey Business School working on macroeconomics and finance."
     image: resources/photo.jpg
+    card-style: summary
   open-graph: true
   navbar:
     pinned: true
