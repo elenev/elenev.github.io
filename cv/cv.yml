@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=cvschema.json
+
 identity:
     name: Vadim Elenev
     email: velenev@jhu.edu
@@ -812,7 +814,7 @@ university-service:
       dates: 2023-Present
     - title: Finance External Speaker Seminar Series Coordinator
       dates: "2022-2023"
-    - title: Finance Internal Brownbag Seminar Series Coordinator	
+    - title: Finance Internal Brownbag Seminar Series Coordinator
       dates: "2021-2022"
     - title: Tenure-Track Faculty Search Committee (Finance)
       dates: "2017-2022"

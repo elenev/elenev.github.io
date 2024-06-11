@@ -1,0 +1,304 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "personal": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+
+      "education": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "location": {"type": "string"},
+                "institution": {"type": "string"},
+                "degrees": {
+                    "type": "array", 
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "title": {"type": "string"}, 
+                            "dates": {"type": "string"}
+                        }
+                    }
+                }
+            },
+            "required": ["degrees", "institution", "location"]
+        }
+      },
+
+      "academic-positions": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "location": {"type": "string"},
+                "institution": {"type": "string"},
+                "positions": {
+                    "type": "array", 
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "title": {"type": "string"}, 
+                            "dates": {"type": "string"}
+                        }
+                    }
+                }
+            },
+            "required": ["positions", "institution", "location"]
+        }
+      },
+
+      "research-interests": {"type": "string"},
+
+      "publications": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "coauthors": {"type": "string"},
+            "journal": {"type": "string"},
+            "biblio": {"type": "string"},
+            "urls": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {"type": "string"},
+                  "href": {"type": "string", "format": "uri"}
+                },
+                "required": ["text", "href"]
+              }
+            },
+            "abstract": {"type": "string"}
+          },
+          "required": ["title", "coauthors"]
+        }
+      },
+
+      "working-papers": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "coauthors": {"type": "string"},
+            "urls": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {"type": "string"},
+                  "href": {"type": "string", "format": "uri"}
+                },
+                "required": ["text", "href"]
+              }
+            },
+            "abstract": {"type": "string"}
+          },
+          "required": ["title", "coauthors"]
+        }
+      },
+
+      "works-in-progress": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "coauthors": {"type": "string"},
+            "journal": {"type": "string"},
+            "biblio": {"type": "string"},
+            "urls": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {"type": "string"},
+                  "href": {"type": "string", "format": "uri"}
+                },
+                "required": ["text", "href"]
+              }
+            },
+            "abstract": {"type": "string"}
+          },
+          "required": ["title", "coauthors"]
+        }
+      },
+
+      "grants": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {"type": "string"},
+            "amount": {"type": "string"},
+            "corecipients": {"type": "string"}, 
+            "year": {"type": "string"} 
+          },
+          "required": ["name", "amount", "year"]
+        }
+      },
+
+      "awards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {"type": "string"},
+            "corecipients": {"type": "string"}
+          },
+          "required": ["name"]
+        }
+      },
+
+      "teaching": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "institution": {"type": "string"},
+            "dates": {"type": "string"},
+            "courses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {"type": "string"},
+                  "role": {"type": "string"},
+                  "level": {"type": "string"}
+                },
+                "required": ["title", "role", "level"]
+              }
+            }
+          },
+          "required": ["institution", "dates", "courses"]
+        }
+      },
+
+
+      "presentations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "paper": {"type": "string"},
+            "talks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "venue": {"type": "string"},
+                  "location": {"type": "string"},
+                  "type": {"type": "string"},
+                  "date": {"type": "string", "format": "string"},
+                  "coauthor": {
+                    "type": "boolean",
+                    "description": "Indicates if a coauthor was present at the talk. Optional field."
+                  }
+                },
+                "required": ["venue", "location", "type", "date"]
+              }
+            }
+          },
+          "required": ["paper", "talks"]
+        }
+      },
+
+
+
+      "university-service": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "dates": {"type": "string"}
+          },
+          "required": ["title", "dates"]
+        }
+      },
+      "memberships": {
+        "type": "array",
+        "items": {"type": "string"}
+      },
+      "other-employment": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "institution": {"type": "string"},
+            "title": {"type": "string"},
+            "dates": {"type": "string"}
+          },
+          "required": ["institution", "title", "dates"]
+        }
+      },
+
+      "identity": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "email": {"type": "string", "format": "email"},
+          "phone": {"type": "string"},
+          "website": {"type": "string", "format": "uri"},
+          "address": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "profiles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "network": {"type": "string"},
+                "url": {"type": "string", "format": "uri"}
+              },
+              "required": ["network", "url"]
+            }
+          }
+        },
+        "required": ["name", "email", "phone","website", "address"]
+      },
+      
+      "discussions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "venue": {"type": "string"},
+            "location": {"type": "string"},
+            "date": {"type": "string", "format": "string"}
+          },
+          "required": ["title", "venue", "location", "date"]
+        }
+      },
+
+      "professional-service": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "items": {
+                "type": "array",
+                "items": {"type": "string"}
+            }
+          },
+          "required": ["title", "items"]
+        }
+      }
+    },
+    "required": ["identity", "research-interests", "academic-positions", 
+        "education", "publications", "working-papers", "works-in-progress",
+        "grants", "awards", "presentations", "discussions",
+        "professional-service", "advising", "university-service", "memberships", 
+        "other-employment", "personal"]
+  }
+  
