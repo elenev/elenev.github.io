@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Vadim Elenev</title>
+<title>A julia engine notebook – Vadim Elenev</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -32,6 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -83,9 +118,9 @@ ga('send', {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Vadim Elenev">
+<meta property="og:title" content="A julia engine notebook – Vadim Elenev">
 <meta property="og:site_name" content="Vadim Elenev">
-<meta name="twitter:title" content="Vadim Elenev">
+<meta name="twitter:title" content="A julia engine notebook – Vadim Elenev">
 <meta name="twitter:description" content="Vadim Elenev, Assistant Professor at Johns Hopkins Carey Business School working on macroeconomics and finance.">
 <meta name="twitter:image" content="https://www.vadimelenev.com/resources/Headshot.jpg">
 <meta name="twitter:creator" content="@VadimElenev">
@@ -110,7 +145,7 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -135,364 +170,40 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working Papers</a></li>
-  <li><a href="#works-in-progress" id="toc-works-in-progress" class="nav-link" data-scroll-target="#works-in-progress">Works in Progress</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Vadim Elenev</h1>
+<h1 class="title">A julia engine notebook</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header> <div class="about-links">
-  <a href="mailto:velenev@jhu.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://twitter.com/VadimElenev" class="about-link" rel="" target="">
-    <i class="bi bi-twitter-x"></i>
-     <span class="about-link-text">X (Twitter)</span>
-  </a>
-  <a href="https://github.com/elenev" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=klSKBaEAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-google"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-</div>
-      <div class="about-contents"><div id="bio">
-<p>Vadim Elenev is an Associate Professor at Johns Hopkins Carey Business School. He specializes in macro finance, with a focus on financial intermediation, monetary policy, and real estate.</p>
-<p>Prof.&nbsp;Elenev earned his Ph.D.&nbsp;in Finance from New York University Stern School of Business and a B.A. in Economics and Mathematics from the University of Virginia. His research has been published in various journals including <em>Econometrica</em>, and <em>Journal of Financial Economics</em>. His work explores the impact of financial crises, government responses to economic downturns, and the effects of monetary policy.</p>
-</div></div>
-    </div>
-    <img src="resources/photo.jpg" alt="Vadim Elenev" class="about-image
-  rounded " style="width: 15em;">
-  </div>
-</div>
+  
 
-<section id="publications" class="level2">
-<h2 data-anchor-id="publications">Publications</h2>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">A Macroeconomic Model with Financially Constrained Producers and Intermediaries</span><br><span class="authors-normal">Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh</span><br><span class="journal-italic">Econometrica</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2748230">[SSRN]</a> <a href="https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA16438">[Journal]</a> <a href="https://github.com/elenev/MacroModelProducersIntermediaries">[Code]</a></p>
-<p>How much capital should financial intermediaries hold? We propose a general equilibrium model with a financial sector that makes risky long-term loans to firms, funded by deposits from savers. Government guarantees create a role for bank capital regulation. The model captures the sharp and persistent drop in macro-economic aggregates and credit provision as well as the sharp change in credit spreads observed during financial crises. Policies requiring intermediaries to hold more capital reduce financial fragility, reduce the size of the financial and non-financial sectors, and lower intermediary profits. They redistribute wealth from savers to the owners of banks and non-financial firms. Pre-crisis capital requirements are close to optimal. Counter-cyclical capital requirements increase welfare.</p>
-<p><em>Presentations:</em></p>
-<ul>
-<li>Michigan Ross, Ann Arbor, MI, Nov 2019</li>
-<li>McGill Desautels, Montreal, Quebec, Aug 2019</li>
-<li>Computing in Economics and Finance, New York, NY, Jun 2017</li>
-<li>Macro Finance Society IX Workshop, Chicago, IL, May 2017</li>
-<li>Econometric Society North American Summer Meeting, Philadelphia, PA, Jun 2016</li>
-</ul>
-<p></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Fearing the Fed: How Wall Street Reads Main Street?</span><br><span class="authors-normal">Vadim Elenev, Tzuo-Hann Law, Dongho Song, and Amir Yaron</span><br><span class="journal-italic">Journal of Financial Economics</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3092629">[SSRN]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0304405X24000138">[Journal]</a></p>
-<p>We provide strong evidence of a countercyclical sensitivity of the stock market to major macroeconomic announcements. The most notable cyclical variation takes place within expansions: sensitivity is largest early in an expansion and essentially zero late in an expansion. By exploiting the comovement pattern between stocks and bonds around announcements, we show that the stock market sensitivity is large when the cash flow component of news is least offset by news about future risk-free rates. Observed fluctuations in stock sensitivities can be attributed to shifting perceptions of monetary policy responsiveness.</p>
-<p></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Phasing out the GSEs</span><br><span class="authors-normal">Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh</span><br><span class="journal-italic">Journal of Monetary Economics</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2588144">[SSRN]</a> <a href="https://www.sciencedirect.com/science/article/pii/S0304393216300332">[Journal]</a></p>
-<p>We develop a new model of the mortgage market that emphasizes the role of the financial sector and the government. Risk tolerant savers act as intermediaries between risk averse depositors and impatient borrowers. Both borrowers and intermediaries can default. The government provides both mortgage guarantees and deposit insurance. Underpriced government mortgage guarantees lead to more and riskier mortgage originations and higher financial sector leverage. Mortgage crises occasionally turn into financial crises and government bailouts due to the fragility of the intermediaries’ balance sheets. Foreclosure crises beget fiscal uncertainty, further disrupting the optimal allocation of risk in the economy. Increasing the price of the mortgage guarantee “crowds in” the private sector, reduces financial fragility, leads to fewer but safer mortgages, lowers house prices, and raises mortgage and risk-free interest rates. Due to a more robust financial sector and less fiscal uncertainty, consumption smoothing improves and foreclosure rates fall. While borrowers are nearly indifferent to a world with or without mortgage guarantees, savers are substantially better off. While aggregate welfare increases, so does wealth inequality.</p>
-<p></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Can the Covid Bailouts Save the Economy?</span><br><span class="authors-normal">Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh</span><br><span class="journal-italic">Economic Policy</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3593108">[SSRN]</a> <a href="https://academic.oup.com/economicpolicy/article-abstract/37/110/277/6511436">[Journal]</a></p>
-<p>The covid-19 crisis has led to a sharp deterioration in firm and bank balance sheets. The government has responded with a massive intervention in corporate credit markets. We study equilibrium dynamics of macroeconomic quantities and prices, and how they are affected by this policy response. The interventions prevent a much deeper crisis by reducing corporate bankruptcies by about half and short-circuiting the doom loop between corporate and financial sector fragility. The additional fiscal cost is zero since programme spending replaces what would otherwise have been spent on financial sector bailouts. An alternative intervention that targets aid to firms at risk of bankruptcy prevents more bankruptcies at much lower fiscal cost, but only enjoys marginally higher welfare. Finally, we study longer-run consequences for firm leverage and intermediary health when pandemics become the new normal.</p>
-<p><em>Presentations:</em></p>
-<ul>
-<li>Bank of Portugal, Virtual, Nov 2020</li>
-<li>IMF Annual Research Conference, Virtual, Nov 2020</li>
-<li>Melbourne, Virtual, Aug 2020</li>
-</ul>
-<p></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Staggered Health Policy Adoption: Spillover Effects and Their Implications</span><br><span class="authors-normal">Vadim Elenev, Luis Quintero, Alessandro Rebucci, and Emilia Simeonova</span><br><span class="journal-italic">Accepted at Management Science</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3657594">[SSRN]</a></p>
-<p>This paper investigates the direct and spillover effects on mobility caused by the staggered adoption of Stay-at-Home orders (SHOs) implemented by U.S. counties to contain the spread of COVID-19. We find that mobility in neighboring counties declines by a third to a half as much as in the counties that first implement the SHOs. Further, these spillovers are concentrated in counties that share media markets with treated counties. Using directional mobility data, we find that declines in internal mobility in the neighbor counties account for a much larger proportion of the overall decline in mobility than decreases in traffic originating in the treated county and headed to the neighbor. Together, these results provide strong evidence that SHOs operate through information sharing and voluntary social distancing. Based on our estimates and a simple model of staggered SHO adoption, we construct counterfactual scenarios that separate the impact of policy coordination from that of adoption timing. We demonstrate that staggered implementation of SHO policies can yield mobility reductions that are larger than coordinated but delayed SHO policy adoption.</p>
-<p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="working-papers" class="level2">
-<h2 data-anchor-id="working-papers">Working Papers</h2>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Deposit Concentration and Financial Stability</span><br><span class="authors-normal">Juliane Begenau, Vadim Elenev, and Tim Landvoigt</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Mortgage Structure and the Link Between Monetary Policy and Financial Stability</span><br><span class="authors-normal">Vadim Elenev, Lu Liu</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Asset Pricing with Optimal Under-Diversification</span><br><span class="authors-normal">Vadim Elenev, Tim Landvoigt</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236861">[SSRN]</a></p>
-<p>We study sources and implications of undiversified portfolios in a production-based asset pricing model with financial frictions. Households take concentrated positions in a single firm exposed to idiosyncratic shocks because managerial effort requires equity stakes, and because investors gain private benefits from concentrated holdings. Matching data on returns and portfolios, we find that the marginal investor optimally holds 45% of their portfolio in a single firm, incentivizing managerial effort that accounts for 4% of aggregate output. Investors derive control benefits equivalent to 3% points of excess return, rationalizing low observed returns on undiversified holdings in the data. A counterfactual world of full diversification would feature higher risk free rates, lower risk premiums on fully diversified and concentrated assets, less capital accumulation, yet higher consumption and welfare. Exposure to undiversified firm risk can explain approximately 40% of the level and 20% of the volatility of the equity premium. A targeted subsidy that decreases diversification improves welfare by increasing managerial effort and reducing financial frictions.</p>
-<p><em>Presentations:</em></p>
-<ul>
-<li>Midwest Finance Association, Chicago, IL, Mar 2024</li>
-<li>American Finance Association, San Antonio, TX, Jan 2024</li>
-<li>European Finance Association, Amsterdam, The Netherlands, Aug 2023</li>
-<li>Western Finance Association, San Francisco, CA, Jun 2023</li>
-<li>Hong Kong University, Virtual, Apr 2023</li>
-<li>ITAM, Mexico City, Mexico, Oct 2023</li>
-<li>UVa Darden, Charlottesville, VA, Sep 2023</li>
-</ul>
-<p></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Can Monetary Policy Create Fiscal Capacity?</span><br><span class="authors-normal">Vadim Elenev, Tim Landvoigt, Patrick Shultz, and Stijn Van Nieuwerburgh</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3896402">[SSRN]</a></p>
-<p>Governments around the world have gone on a massive fiscal expansion in response to the GFC and Covid crises, increasing government debt to levels not seen in 75 years. How will this debt be repaid? What role do conventional and unconventional monetary policy play? We investigate debt sustainability in a New Keynesian model with an intermediary sector, realistic fiscal and monetary policy, endogenous convenience yields, and substantial risk premia. During a large economic crisis, increased government spending and lower tax revenue lead to a large rise in government debt and raise the risk of future tax increases. Quantitative easing (QE) contributes to lowering the debt/GDP ratio and reducing the risk of future tax increases. QE is state- and duration-dependent: while a temporary QE policy deployed in a crisis stimulates aggregate demand, permanent QE crowds out investment and lowers long-run output.</p>
-<p><em>Presentations:</em></p>
-<ul>
-<li>American Economic Association, New Orleans, LA, Jan 2023</li>
-<li>Nebraska, Lincoln, NE, Sep 2022</li>
-<li>Financial Intermediary Research Society, Budapest, Hungary, Jun 2022</li>
-<li>USC Marshall, Los Angeles, CA, Apr 2022</li>
-<li>Tepper LAEF Advances in Macro Finance, Santa Barbara, CA, Apr 2022</li>
-<li>UNC Jackson Hole Winter Finance, Teton Village, WY, Jan 2022</li>
-<li>Carnegie Mellon Tepper, Virtual, Oct 2021</li>
-</ul>
-<p></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Mortgage Credit, Aggregate Demand, and Unconventional Monetary Policy</span><br><span class="authors-normal">Vadim Elenev</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2951397">[SSRN]</a></p>
-<p>I develop a quantitative model of the mortgage market operating in an economy with financial frictions and nominal rigidities. I use this model to study the effectiveness of large-scale asset purchases (LSAPs) by a central bank as a tool of monetary policy. When negative shocks hit, homeowner and financial sector balance sheets are impaired, borrowing constraints bind, asset prices and aggregate demand drop, hampering the transmission of conventional monetary policy. LSAPs boost aggregate demand in a crisis by directing additional lending to homeowners, raising house prices, and establishing expectations of future financial stability. However, legacy household debt depresses output and consumption in recovery. In the long run, a commitment to ongoing use of LSAPs in crises reduces credit and business cycle volatility and redistributes resources from borrowers and intermediaries to savers.</p>
-<p><em>Presentations:</em></p>
-<ul>
-<li>JHU Applied Math, Baltimore, MD, Mar 2019</li>
-<li>JHU Econ, Baltimore, MD, Apr 2018</li>
-<li>CUNY Baruch, New York, NY, Nov 2017</li>
-<li>Penn State Smeal, State College, PA, Oct 2017</li>
-<li>Syracuse Whitman, Syracuse, NY, Feb 2017</li>
-<li>Wharton, Philadelphia, PA, Feb 2017</li>
-<li>UCSD Rady, La Jolla, CA, Feb 2017</li>
-<li>Washington University Olin, Clayton, MO, Feb 2017</li>
-<li>Imperial College, London, U.K., Feb 2017</li>
-<li>London Business School, London, U.K., Feb 2017</li>
-<li>Johns Hopkins Carey, Baltimore, MD, Jan 2017</li>
-</ul>
-<p></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Quantitative Tightening</span><br><span class="authors-normal">Vadim Elenev, Miguel Faria e Castro, and Daniel Greenwald</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p><p><em>Presentations:</em></p>
-<ul>
-<li>DC-Area Juniors, Washington, DC, May 2019</li>
-<li>American Real Estate and Urban Economics Association, Washington DC, May 2019</li>
-<li>UMBC, Catonsville, MD, Apr 2019</li>
-<li>UNC Junior Finance Roundtable, Chapel Hill, NC, Mar 2019</li>
-</ul>
-<p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="works-in-progress" class="level2">
-<h2 data-anchor-id="works-in-progress">Works in Progress</h2>
-<div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Reconstruction Land Ownership</span><br><span class="authors-normal">Vadim Elenev, Luke Stein, and Constantine Yannelis</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="title-bold">Transition Function Iteration</span><br><span class="authors-normal">Vadim Elenev, Tim Landvoigt</span>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-13" class="callout-13-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>
-</p>
-</div>
+
+</header>
+
+
+<div id="2" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">YAML</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fl">1</span> <span class="op">+</span> <span class="fl">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<pre><code>3</code></pre>
 </div>
 </div>
 
 
-
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -659,6 +370,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
