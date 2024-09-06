@@ -79,6 +79,8 @@ publications:
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3092629
         - text: Journal
           href: https://www.sciencedirect.com/science/article/pii/S0304405X24000138
+        - text: Code
+          href: https://data.mendeley.com/datasets/w9ywjnmcv5/3          
       abstract: > 
         We provide strong evidence of a countercyclical sensitivity of the stock market to major macroeconomic 
         announcements. The most notable cyclical variation takes place within expansions: sensitivity is 
@@ -118,7 +120,9 @@ publications:
         - text: SSRN
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3593108
         - text: Journal
-          href: https://academic.oup.com/economicpolicy/article-abstract/37/110/277/6511436      
+          href: https://academic.oup.com/economicpolicy/article-abstract/37/110/277/6511436  
+        - text: Code
+          href: https://github.com/elenev/CovidBailouts              
       abstract: >
         The covid-19 crisis has led to a sharp deterioration in firm and bank balance sheets. The government 
         has responded with a massive intervention in corporate credit markets. We study equilibrium dynamics 
