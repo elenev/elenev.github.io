@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-date: "6/10/2024"
+date: "9/9/2024"
 format:
    html:
         code-fold: true

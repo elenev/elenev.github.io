@@ -30,7 +30,12 @@ website:
         href: https://github.com/elenev        
   back-to-top-navigation: true
   google-analytics: UA-97196765-1
-
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**New Working Paper**: [Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4950528)"
+    type: primary
+    position: below-navbar
   
 
 format:
