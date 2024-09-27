@@ -172,7 +172,7 @@ working-papers:
       urls:
         - text: SSRN
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4950528
-    - title: "Understanding the Comovement of Voter Preferences: Insights from Prediction Markets Beyond Poll-Based Forecasts"
+    - title: "The Comovement of Voter Preferences: Insights from U.S. Presidential Election Prediction Markets Beyond Polls"
       coauthors: Vadim Elenev, Dongho Song
       abstract: > 
         We propose a novel time-series econometric framework to forecast U.S. Presidential election outcomes 

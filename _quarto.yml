@@ -33,7 +33,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "**New Working Paper**: [Understanding the Comovement of Voter Preferences: Insights from Prediction Markets Beyond Poll-Based Forecasts](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4969800)"
+    content: "**New Working Paper**: [The Comovement of Voter Preferences: Insights from U.S. Presidential Election Prediction Markets Beyond Polls](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4969800)"
     type: primary
     position: below-navbar
   
