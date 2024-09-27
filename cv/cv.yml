@@ -184,8 +184,29 @@ working-papers:
         deposits are effective at curbing run risk of large banks, but cause misallocation in the 
         lending market. Size-dependent capital requirements are equally effective at mitigating 
         run risk, with minimal unintended consequences. 
-    - title: Mortgage Structure and the Link Between Monetary Policy and Financial Stability
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4950528
+    - title: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
       coauthors: Vadim Elenev, Lu Liu
+      abstract: >
+        Mortgage structure matters not only for monetary policy transmission, but also  
+        for financial stability. In an adjustable-rate mortgage (ARM) regime, interest  
+        rate rises cause higher default rates due to increases in mortgage payments. In  
+        a fixed-rate mortgage (FRM) regime, households are protected, but banks are  
+        potentially more exposed to rate rises. To evaluate these competing mechanisms  
+        under different mortgage regimes, we build a quantitative model with flexible  
+        mortgage contract structures, borrowers, and an intermediary sector. Our  
+        approach allows us to capture borrowers' endogenous default decisions and  
+        equilibrium pricing effects on mortgage rates and risk premia, reflecting  
+        interaction effects between interest rate and credit risk, and intermediary net  
+        worth. We find that financial stability risks are "U-shaped" in mortgage  
+        structure: while ARM payments are more sensitive to interest rates, defaults  
+        happen in states when intermediary net worth is high, resulting in lower risk  
+        premia compared to the benchmark FRM economy. As a result, an intermediate  
+        mortgage fixation length minimizes the volatility of intermediary net worth. We  
+        contrast financial stability effects with the effects on risk-sharing, with  
+        implications for mortgage design, macroprudential, and monetary policy.
     - title: Asset Pricing with Optimal Under-Diversification
       coauthors: Vadim Elenev, Tim Landvoigt
       urls:
@@ -295,6 +316,12 @@ teaching:
           level: Undergraduate
 
 presentations:
+    - paper: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
+      talks:
+          - venue: American Real Estate and Urban Economics Association National Conference
+            location: Washington, DC
+            type: Conference
+            date: May 2024
     - paper: Asset Pricing with Optimal Under-Diversification
       talks:
           - venue: Midwest Finance Association
@@ -635,9 +662,14 @@ presentations:
 discussions:
     - title: Macro Shocks and Housing Markets
       authors: Gene Amromin and Janice Eberly
-      venue: ASSA
+      venue: American Economic Association Annual Meeting
       location: San Francisco, CA
       date: "2025"
+    - title: "Tech-Driven Intermediation When Banks Originate to Distribute"
+      authors: Zhiguo He, Sheila Jiang, Douglas Xu
+      venue: Western Finance Association Annual Meeting
+      location: Honolulu, HI
+      date: "2024"
     - title: Inflation and Treasury Convenience
       authors: Anna Cieslak, Carolin Pflueger, and Wenhao Li
       venue: SFS Cavalcade
@@ -684,7 +716,7 @@ discussions:
       location: Los Angeles, CA
       date: "2022"
     - title: Pension Plan Systems and Asset Prices
-      authors: Nuno Coimbra, Francisco Gomes,Alexander Michaelides, Jialu Shen
+      authors: Nuno Coimbra, Francisco Gomes, Alexander Michaelides, Jialu Shen
       venue: China International Conference in Macroeconomics
       location: Virtual
       date: "2022"
