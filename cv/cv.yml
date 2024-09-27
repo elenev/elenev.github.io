@@ -154,22 +154,7 @@ publications:
         timing. We demonstrate that staggered implementation of SHO policies can yield mobility reductions that 
         are larger than coordinated but delayed SHO policy adoption.
 
-working-papers:
-    - title: "Understanding the Comovement of Voter Preferences: Insights from Prediction Markets Beyond Poll-Based Forecasts"
-      coauthors: Dongho Song
-      abstract: > 
-        We propose a novel time-series econometric framework to forecast U.S. Presidential election outcomes 
-        in real time by combining polling data, economic fundamentals, and political prediction market prices. 
-        Our model estimates the joint dynamics of voter preferences across states. Applying our approach to the 2024 
-        Presidential Election, we find a two-factor structure driving the vast majority of the variation in voter 
-        preferences. We identify electorally similar state clusters without relying on historical data or demographic 
-        models of voter behavior. Our simulations quantify the correlations between state-level election outcomes. 
-        Failing to take the correlations into account can bias the forecasted win probability for a given candidate by 
-        several percentage points. We find Pennsylvania to be the most pivotal state in the 2024 election, followed 
-        by Nevada. Our results provide insights for election observers, candidates, and traders.
-      urls:
-        - text: SSRN
-          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4969800    
+working-papers: 
     - title: Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation
       coauthors: Juliane Begenau, Vadim Elenev, and Tim Landvoigt
       abstract: >
@@ -187,6 +172,21 @@ working-papers:
       urls:
         - text: SSRN
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4950528
+    - title: "Understanding the Comovement of Voter Preferences: Insights from Prediction Markets Beyond Poll-Based Forecasts"
+      coauthors: Dongho Song
+      abstract: > 
+        We propose a novel time-series econometric framework to forecast U.S. Presidential election outcomes 
+        in real time by combining polling data, economic fundamentals, and political prediction market prices. 
+        Our model estimates the joint dynamics of voter preferences across states. Applying our approach to the 2024 
+        Presidential Election, we find a two-factor structure driving the vast majority of the variation in voter 
+        preferences. We identify electorally similar state clusters without relying on historical data or demographic 
+        models of voter behavior. Our simulations quantify the correlations between state-level election outcomes. 
+        Failing to take the correlations into account can bias the forecasted win probability for a given candidate by 
+        several percentage points. We find Pennsylvania to be the most pivotal state in the 2024 election, followed 
+        by Nevada. Our results provide insights for election observers, candidates, and traders.
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4969800             
     - title: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
       coauthors: Vadim Elenev, Lu Liu
       abstract: >
