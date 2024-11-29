@@ -136,10 +136,12 @@ publications:
         new normal.
     - title: "Staggered Health Policy Adoption: Spillover Effects and Their Implications"
       coauthors: Vadim Elenev, Luis Quintero, Alessandro Rebucci, and Emilia Simeonova
-      journal: Accepted at Management Science
+      journal: Management Science
       urls:
         - text: SSRN
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3657594
+        - text: Journal
+          href: https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.01033
       abstract: >
         This paper investigates the direct and spillover effects on mobility caused by the staggered adoption 
         of Stay-at-Home orders (SHOs) implemented by U.S. counties to contain the spread of COVID-19. We 
