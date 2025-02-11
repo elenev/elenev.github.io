@@ -26,6 +26,12 @@ academic-positions:
           dates: 2024-Present
         - title: Assistant Professor
           dates: 2017-2024
+
+    - institution: The Wharton School, University of Pennsylvania
+      location: Philadelphia, PA
+      positions:
+        - title: Visiting Scholar
+          dates: "Spring 2025"
           
     - institution: Federal Reserve Bank of St. Louis
       location: St. Louis, MO
@@ -187,8 +193,10 @@ working-papers:
         several percentage points. We find Pennsylvania to be the most pivotal state in the 2024 election, followed 
         by Nevada. Our results provide insights for election observers, candidates, and traders.
       urls:
-        - text: SSRN
-          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4998858            
+        - text: NBER
+          href: https://www.nber.org/papers/w33339?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg28   
+        - text: SSRN (Realtime Forecast)
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4998858         
     - title: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
       coauthors: Vadim Elenev, Lu Liu
       abstract: >
@@ -305,12 +313,61 @@ teaching:
           level: Undergraduate
 
 presentations:
+    - paper: "Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation"
+      talks:
+          - venue: UBC Winter Finance Conference
+            location: Whistler, BC
+            type: Conference
+            date: Feb 2025
+            coauthor: true
+          - venue: HEC-McGill Winter Finance Workshop
+            location: Charlevoix, Quebec
+            type: Conference
+            date: Mar 2025
+            coauthor: true
+          - venue: Midwest Finance Association
+            location: Chicago, IL
+            type: Conference
+            date: Mar 2025
+          - venue: NBER Financial Market Frictions and Systemic Risks
+            location: Boston, MA
+            type: Conference
+            date: Mar 2025
+            coauthor: true
+          - venue: SFS Cavalcade
+            location: Hoboken, NJ
+            type: Conference
+            date: May 2025
+          - venue: Western Finance Association
+            location: Snowbird, UT
+            type: Conference
+            date: Jun 2025
     - paper: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
       talks:
           - venue: American Real Estate and Urban Economics Association National Conference
             location: Washington, DC
             type: Conference
             date: May 2024
+          - venue: CUNY Baruch
+            location: New York, NY
+            type: Seminar
+            date: Dec 2024
+          - venue: Chicago Fed
+            location: Chicago, IL
+            type: Seminar
+            date: Mar 2025
+          - venue: Columbia Workshop in New Empirical Finance
+            location: New York, NY
+            type: Conference
+            date: May 2025
+          - venue: SFS Cavalcade
+            location: Hoboken, NJ
+            type: Conference
+            date: May 2025
+          - venue: Western Finance Association
+            location: Snowbird, UT
+            type: Conference
+            date: Jun 2025
     - paper: Asset Pricing with Optimal Under-Diversification
       talks:
           - venue: Midwest Finance Association
@@ -650,140 +707,185 @@ presentations:
 
 discussions:
     - title: Macro Shocks and Housing Markets
-      authors: Gene Amromin and Janice Eberly
+      authors: Gene Amromin, Janice Eberly, and Jialu Sun
       venue: American Economic Association Annual Meeting
       location: San Francisco, CA
       date: "2025"
+      filename: "DiscussionSlides_elenev_AmrominEberlySun.pdf"
     - title: "Tech-Driven Intermediation When Banks Originate to Distribute"
       authors: Zhiguo He, Sheila Jiang, Douglas Xu
       venue: Western Finance Association Annual Meeting
       location: Honolulu, HI
       date: "2024"
+      filename: "DiscussionSlides_elenev_HeJiangXu.pdf"
     - title: Inflation and Treasury Convenience
       authors: Anna Cieslak, Carolin Pflueger, and Wenhao Li
       venue: SFS Cavalcade
       location: Atlanta, GA
       date: "2024"
+      filename: "DiscussionSlides_elenev_CieslakLiPflueger.pdf"
     - title: Monetary Policy Wedges and the Long-term Liabilities of Households and Firms
       authors: Jules H. van Binsbergen and Marco Grotteria
       venue: Duke-UNC Asset Pricing Conference
       location: Durham, NC
       date: "2024"
+      filename: "DiscussionSlides_elenev_vanBinsbergenGrotteria.pdf"
     - title: "Bailing out (Firms’) Uninsured Deposits: A Quantitative Analysis"
       authors: N. Aaron Pancost and Roberto Robatto
       venue: Midwest Finance Association Annual Meeting
       location: Chicago, IL
       date: "2024"
+      filename: "DiscussionSlides_elenev_PancostRobatto.pdf"
     - title: Running Out of Time (Deposits)
       authors: Dominik Supera
       venue: Temple Fischer-Shain Center Research Conference
       location: Philadelphia, PA
       date: "2023"
+      filename: "DiscussionSlides_elenev_Supera.pdf"
     - title: Leasing as a Mitigation Channel of Capital Misallocation
       authors: Yiming Xu, Kai Li, and Weiwei Hu
       venue: European Finance Association
       location: Amsterdam, The Netherlands
       date: "2023"
+      filename: "DiscussionSlides_elenev_HuLiXu.pdf"
     - title: Intermediary-Based Loan Pricing
       authors: Pierre Mabille and Olivier Wang
       venue: European Finance Association
       location: Amsterdam, The Netherlands
       date: "2023"
+      filename: "DiscussionSlides_elenev_MabilleWang.pdf"
     - title: A Monetary Policy Asset Pricing Model
       authors: Ricardo Caballero and Alp Simsek
       venue: Western Finance Association
       location: San Francisco, CA
       date: "2023"
+      filename: "DiscussionSlides_elenev_CabelleroSimsek.pdf"
     - title: Household Debt Overhang and Human Capital Investment
       authors: Gustavo Manso, Alejandro Rivera, Hui Wang, and Han Xia
       venue: ASU Sonoran Winter Finance Conference
       location: Phoenix, AZ
       date: "2023"
+      filename: "Slides_elenev_MansoRiveraWangXia.pdf"
     - title: Uncertainty, Risk, and Capital Growth
       authors: Gill Segal and Ivan Shaliastovich
       venue: USC Macrofinance Conference
       location: Los Angeles, CA
       date: "2022"
+      filename: "DiscussionSlides_elenev_SegalShaliastovich.pdf"
     - title: Pension Plan Systems and Asset Prices
       authors: Nuno Coimbra, Francisco Gomes, Alexander Michaelides, Jialu Shen
       venue: China International Conference in Macroeconomics
       location: Virtual
       date: "2022"
+      filename: "DiscussionSlides_CoimbraGomesMichalidesShen.pdf"
     - title: Monetary Policy, Segmentation, and the Term Structure
       authors: Rohan Kekre, Moritz Lenel, and Federico Mainardi
       venue: China International Conference in Macroeconomics
       location: Virtual
       date: "2022"
+      filename: "DiscussionSlides_elenev_KekreLenelMainardi.pdf"
     - title: The Demand for Money, Near-Money, and Treasury Bonds
       authors: Arvind Krushnamurthy and Wenhao Li
       venue: Midwest Finance Association Annual Meeting
       location: Chicago, IL
       date: "2022"
+      filename: "DiscussionSlides_elenev_KrishnamurthyLi.pdf"
+    - title: "The Mortgage Credit Channel of Macroeconomic Transmission"
+      authors: Daniel Greenwald
+      venue: IMF Annual Research Conference
+      location: Virtual
+      date: "2021"
+      filename: "slides_mtgechannel.pdf"
     - title: Spatial Implications of Telecommuting
       authors: Matthew Delventhal and Andrii Parkhomenko
       venue: American Real Estate and Urban Economics Association January Meeting
       location: Virtual
       date: "2021"
+      filename: "DiscussionSlides_elenev_DelventhalParkhomenko.pdf"
     - title: Moral Hazard versus Liquidity in Household Bankruptcy
       authors: Sasha Indarte
       venue: Midwest Finance Association Annual Meeting
       location: Virtual
-      date: "2021"
+      date: "2020"
+      filename: "DiscussionSlides_elenev_Indarte.pdf"
     - title: The Structure of Economic News
       authors: Leland Bybee, Bryan Kelly, Asaf Manela, and Dacheng Xiu
       venue: Western Finance Association Annual Meeting
       location: Virtual
       date: "2020"
+      filename: "DiscussionSlides_elenev_BybeeKellyManelaXiu.pdf"
     - title: "Financial inclusion, human capital, and wealth accumulation: Evidence from the Freedman’s Savings Bank"
       authors: Luke Stein and Constantine Yannelis
       venue: European Finance Association Annual Meeting
       location: Carcavelos, Portugal
       date: "2019"
+      filename: "slides_reconstruction.pdf"
     - title: The Credit Channel of Fiscal Policy Transmission
       authors: Andrew Bird, Stephen A. Karolyi, Stefan Lewellen, and Thomas Ruchti
       venue: University of Oregon Summer Finance Conference
       location: Eugene, OR
       date: "2019"
+      filename: "DiscussionSlides_elenev_BirdKarolyiLewellenRuchti.pdf"
     - title: Foreseen Risks
       authors: Joao Gomes, Marco Grotteria, and Jessica Wachter
       venue: Financial Intermediation Research Society Annual Conference
       location: Savannah, GA
       date: "2019"
+      filename: "slides_foreseenrisks.pdf"
+    - title: "Price Regulation in Two-Sided Markets: Empirical Evidence from Debit Cards"
+      authors: Vladimir Mukharlyamov and Natasha Sarin
+      venue: DC-Area Junior Finance Conference
+      location: Washington, DC
+      date: "2019"
+      filename: "DiscussionSlides_elenev_MukharlyamovSarin.pdf"
     - title: Can Restrictions on Exotic Lending Dampen House Price Volatility? A Panel VAR Exploration
       authors: Wayne R. Archer
       venue: American Real Estate and Urban Economics Association January Meeting
       location: Atlanta, GA
       date: "2019"
+      filename: "DiscussionSlides_elenev_Archer.pdf"
     - title: Time-varying Risk Premium and Unemployment Risk Across Age Groups
       authors: Indrajit Mitra and Yu Xu
       venue: European Finance Association Annual Meeting
       location: Warsaw, Poland
       date: "2018"
+      filename: "DiscussionSlides_elenev_MitraXu.pdf"
+    - title: Size Premium Waves
+      authors: Bernard Herskovic, Thilo Kind, and Howard Kung
+      venue: Carey Finance Conference
+      location: Baltimore, MD
+      date: "2018"
+      filename: "DiscussionSlides_elenev_HerskovicKindKung.pdf"
     - title: Collateral Misreporting in the RMBS Market
       authors: Sam Kruger and Gonzalo Maturana
       venue: Midwest Finance Association Annual Meeting
       location: San Antonio, TX
       date: "2018"
+      filename: "discussion_KrugerMaturana_MFA2018.pdf"
     - title: Treasury Yield Implied Volatility and Real Activity
       authors: Martijn Cremers, Matthias Fleckenstein, and Priyank Gandhi
       venue: IFSID Sixth Annual Conference
       location: Montreal, Quebec
       date: "2017"
+      filename: "DiscussionSlides_elenev_CremersFleckensteinGandhi.pdf"
     - title: Tail Risk, Robust Portfolio Choice, and Asset Prices
       authors: Xing Jin, Dan Luo, and Xudong Zeng
       venue: European Finance Association Annual Meeting
       location: Mannheim, Germany
       date: "2017"
+      filename: "DiscussionSlides_elenev_JinLuoZeng.pdf"
     - title: Financial Sector Origins of Economic Growth Delusion
       authors: Frederic Malherbe and Michael McMahon
       venue: Western Finance Association Annual Meeting
       location: Whistler, BC
       date: "2017"
+      filename: "DiscussionSlides_elenev_MalherbeMcMahon.pdf"
     - title: A Quantitative Model of 'Too Big to Fail,' House Prices, and the Financial Crisis
       authors: Omer Acikgoz and James Kahn
       venue: NYC Real Estate Conference
       location: New York, NY 
       date: "2017"
+      filename: "discussion_Acikgoz_Kahn_20170505_NYCRE.pdf"
 
 
 professional-service:

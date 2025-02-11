@@ -19,6 +19,8 @@ website:
         text: Home
       - href: CV.qmd
         text: CV
+      - href: discussions.qmd
+        text: Discussions
       - href: http://www.github.com/elenev
         text: Code
     tools:
@@ -33,7 +35,8 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "**New Working Paper**: [A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5014602)"
+    #content: "**New Working Paper**: [A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5014602)"
+    content: "**Newly added**: [Discussions](discussions.html) page with past discussion slides."
     type: primary
     position: below-navbar
   

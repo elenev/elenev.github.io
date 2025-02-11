@@ -243,6 +243,8 @@ for p in cvdata.publications {
 }
 )
 
+#v(10pt)
+
 #toplevel_block("Working Papers", for p in cvdata.working-papers {
   if nonblank(p,"status") {p.journal = p.status}
   my_paper(p)

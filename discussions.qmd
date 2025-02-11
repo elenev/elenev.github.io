@@ -1,0 +1,32 @@
+---
+title: "Discussions"
+format:
+   html:
+        code-fold: true
+        echo: false
+        css: styles.css
+engine: julia
+
+callout-appearance: minimal
+---
+
+```{julia}
+#| echo: false
+include("common.jl");
+```
+
+Below are links to slides accompanying discussions I have given at various conferences, in reverse chronological order.
+
+```{julia}
+#| output: asis
+for (i,d) in enumerate(cvdata["discussions"])
+    title = d["title"]
+    authors = d["authors"]
+    venue = d["venue"]
+    location = d["location"]
+    date = d["date"]
+    filename = "resources/discussions/" * d["filename"]
+    println(" $i. [Discussion]($filename) of _$(title)_, by $authors, at the $venue in $date")
+end
+```
+
