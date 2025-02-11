@@ -5,7 +5,7 @@ cvdata = YAML.load(cvyaml);
 
 notblank(d,k) = k ∈ keys(d) && d[k] != ""
 
-function print_paper(paper, presentations, type)
+function print_paper(paper, presentations, type; include_by_coauthor=false)
     println("::: {.callout-$type collapse=\"true\"}")
     print("## <span class=\"title-bold\">", paper["title"], "</span>")
     print("<br><span class=\"authors-normal\">", paper["coauthors"], "</span>")
@@ -38,8 +38,13 @@ function print_paper(paper, presentations, type)
         println("")
         
         for pres in this_presentations["talks"]
-           if !notblank(pres,"coauthor") || !pres["coauthor"]
-              println(" - ", pres["venue"], ", ", pres["location"], ", ", pres["date"])
+           if include_by_coauthor || !notblank(pres,"coauthor") || !pres["coauthor"]
+              if notblank(pres,"coauthor") && pres["coauthor"]
+                coauthor_string = " (by coauthor)"
+              else
+                coauthor_string = ""
+              end
+              println(" - ", pres["venue"], ", ", pres["location"], ", ", pres["date"], coauthor_string)
            end
         end
         println("")

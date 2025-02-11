@@ -46,18 +46,18 @@ include("common.jl");
 
 ```{julia}
 #| output: asis
-map(paper -> print_paper(paper, cvdata["presentations"], "tip"), cvdata["publications"]);
+map(paper -> print_paper(paper, cvdata["presentations"], "tip", include_by_coauthor=true), cvdata["publications"]);
 ```
 
 ## Working Papers
 
 ```{julia}
 #| output: asis
-map(paper -> print_paper(paper, cvdata["presentations"], "note"), cvdata["working-papers"]);
+map(paper -> print_paper(paper, cvdata["presentations"], "note", include_by_coauthor=true), cvdata["working-papers"]);
 ```
 
 ## Works in Progress
 ```{julia}
 #| output: asis
-map(paper -> print_paper(paper, cvdata["presentations"], "caution"), cvdata["works-in-progress"]);
+map(paper -> print_paper(paper, cvdata["presentations"], "caution", include_by_coauthor=true), cvdata["works-in-progress"]);
 ```
