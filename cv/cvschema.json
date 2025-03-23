@@ -274,9 +274,10 @@
             "title": {"type": "string"},
             "venue": {"type": "string"},
             "location": {"type": "string"},
-            "date": {"type": "string", "format": "string"}
+            "date": {"type": "string", "format": "string"},
+            "filename": {"type": "string"}
           },
-          "required": ["title", "venue", "location", "date"]
+          "required": ["title", "venue", "location", "date", "filename"]
         }
       },
 
