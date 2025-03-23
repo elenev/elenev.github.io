@@ -200,7 +200,18 @@ working-papers:
     - title: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
       coauthors: Vadim Elenev, Lu Liu
       abstract: >
-        Mortgage structure matters not only for monetary policy transmission, but also for financial stability. In an adjustable-rate mortgage (ARM) regime, interest rate rises cause higher default rates due to increases in mortgage payments. In a fixed-rate mortgage (FRM) regime, households are protected, but banks are potentially more exposed to rate rises. To evaluate these competing mechanisms under different mortgage regimes, we build a quantitative model with flexible mortgage contract structures, borrowers, and an intermediary sector. Our approach captures borrowers' endogenous default decisions and intermediaries' equilibrium pricing effects on mortgage rates and risk premia, reflecting the interaction between interest rate and credit risks, and intermediary net worth. We find that financial stability risks are "U-shaped" in mortgage structure: while ARM payments are more sensitive to interest rates, defaults happen in states when intermediary net worth is high, resulting in lower risk premia in constrained states of the world compared to the benchmark FRM economy. As a result, an intermediate mortgage fixation length minimizes the volatility of intermediary net worth and improves the sharing of aggregate risks. Our findings have implications for mortgage design, macroprudential, and monetary policy. 
+        Mortgage structure matters not only for monetary policy transmission, but also for financial stability. 
+        In an adjustable-rate mortgage (ARM) regime, interest rate rises cause higher default rates due to increases in mortgage payments. 
+        In a fixed-rate mortgage (FRM) regime, households are protected, but banks are potentially more exposed to rate rises. 
+        To evaluate these competing mechanisms under different mortgage regimes, we build a quantitative model with flexible 
+        mortgage contract structures, borrowers, and an intermediary sector. Our approach captures borrowers' endogenous 
+        default decisions and intermediaries' equilibrium pricing effects on mortgage rates and risk premia, reflecting the 
+        interaction between interest rate and credit risks, and intermediary net worth. We find that financial stability risks 
+        are "U-shaped" in mortgage structure: while ARM payments are more sensitive to interest rates, defaults happen in states 
+        when intermediary net worth is high, resulting in lower risk premia in constrained states of the world compared to the 
+        benchmark FRM economy. As a result, an intermediate mortgage fixation length minimizes the volatility of intermediary 
+        net worth and improves the sharing of aggregate risks. Our findings have implications for mortgage design, macroprudential, 
+        and monetary policy. 
       urls:
         - text: SSRN
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5014602
@@ -278,7 +289,7 @@ grants:
       year: "2020"
 
 awards:
-    - name: Marshall Blume Prize (Wharton)
+    - name: Marshall Blume Prize Honorable Mention (Wharton)
       corecipients: Tim Landvoigt, Patrick Shultz, and Stijn Van Nieuwerburgh
     - name: Faculty Excellence Award, 2020-21
     - name: AREUEA Homer Hoyt Doctoral Dissertation Award (best dissertation in real estate)
@@ -315,13 +326,21 @@ teaching:
 presentations:
     - paper: "Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation"
       talks:
-          - venue: UBC Winter Finance Conference
-            location: Whistler, BC
+          - venue: Western Finance Association
+            location: Snowbird, UT
             type: Conference
-            date: Feb 2025
-            coauthor: true
-          - venue: HEC-McGill Winter Finance Workshop
-            location: Charlevoix, Quebec
+            date: Jun 2025
+          - venue: SFS Cavalcade
+            location: Hoboken, NJ
+            type: Conference
+            date: May 2025
+          - venue: NBER Corporate Finance
+            location: Chicago, IL
+            type: Conference
+            date: Apr 2025
+            coauthor: true            
+          - venue: NBER Financial Market Frictions and Systemic Risks
+            location: Boston, MA
             type: Conference
             date: Mar 2025
             coauthor: true
@@ -329,45 +348,51 @@ presentations:
             location: Chicago, IL
             type: Conference
             date: Mar 2025
-          - venue: NBER Financial Market Frictions and Systemic Risks
-            location: Boston, MA
+          - venue: HEC-McGill Winter Finance Workshop
+            location: Charlevoix, Quebec
             type: Conference
             date: Mar 2025
+            coauthor: true
+          - venue: UBC Winter Finance Conference
+            location: Whistler, BC
+            type: Conference
+            date: Feb 2025
+            coauthor: true
+    - paper: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
+      talks:
+          - venue: Western Finance Association
+            location: Snowbird, UT
+            type: Conference
+            date: Jun 2025
+          - venue: ECB Conference on Financial Stability and Macroprudential Policy
+            location: Frankfurt am Main, Germany
+            type: Conference
+            date: Jun 2025
             coauthor: true
           - venue: SFS Cavalcade
             location: Hoboken, NJ
             type: Conference
             date: May 2025
-          - venue: Western Finance Association
-            location: Snowbird, UT
-            type: Conference
-            date: Jun 2025
-    - paper: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
-      talks:
-          - venue: American Real Estate and Urban Economics Association National Conference
-            location: Washington, DC
-            type: Conference
-            date: May 2024
-          - venue: CUNY Baruch
-            location: New York, NY
-            type: Seminar
-            date: Dec 2024
-          - venue: Chicago Fed
-            location: Chicago, IL
-            type: Seminar
-            date: Apr 2025
           - venue: Columbia Workshop in New Empirical Finance
             location: New York, NY
             type: Conference
             date: May 2025
-          - venue: SFS Cavalcade
-            location: Hoboken, NJ
+          - venue: Chicago Fed
+            location: Chicago, IL
+            type: Seminar
+            date: Apr 2025
+          - venue: Wharton
+            location: Philadelphia, PA
+            type: Seminar
+            date: Mar 2025
+          - venue: CUNY Baruch
+            location: New York, NY
+            type: Seminar
+            date: Dec 2024
+          - venue: American Real Estate and Urban Economics Association National Conference
+            location: Washington, DC
             type: Conference
-            date: May 2025
-          - venue: Western Finance Association
-            location: Snowbird, UT
-            type: Conference
-            date: Jun 2025
+            date: May 2024
     - paper: Asset Pricing with Optimal Under-Diversification
       talks:
           - venue: Midwest Finance Association
@@ -971,6 +996,8 @@ advising:
 university-service:
     - title: Carey Faculty Advisory Council
       dates: 2023-Present
+    - title: Nexus Awards Reviewer
+      dates: "2025"
     - title: Finance External Speaker Seminar Series Coordinator
       dates: "2022-2023"
     - title: Finance Internal Brownbag Seminar Series Coordinator
@@ -995,6 +1022,7 @@ memberships:
     - European Finance Association
     - Macro Finance Society
     - Western Finance Association
+    - Society for Financial Studies
     
 other-employment:
     - institution: Cornerstone Research
