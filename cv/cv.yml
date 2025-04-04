@@ -197,7 +197,7 @@ working-papers:
           href: https://www.nber.org/papers/w33339?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg28   
         - text: SSRN (Realtime Forecast)
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4998858         
-    - title: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
+    - title: "Mortgage Structure, Financial Stability, and Risk Sharing"
       coauthors: Vadim Elenev, Lu Liu
       abstract: >
         Mortgage structure matters not only for monetary policy transmission, but also for financial stability. 
@@ -343,7 +343,6 @@ presentations:
             location: Boston, MA
             type: Conference
             date: Mar 2025
-            coauthor: true
           - venue: Midwest Finance Association
             location: Chicago, IL
             type: Conference
@@ -358,7 +357,7 @@ presentations:
             type: Conference
             date: Feb 2025
             coauthor: true
-    - paper: "A Macro-Finance Model of Mortgage Structure: Financial Stability & Risk Sharing"
+    - paper: "Mortgage Structure, Financial Stability, and Risk Sharing"
       talks:
           - venue: Western Finance Association
             location: Snowbird, UT
