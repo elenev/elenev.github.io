@@ -326,6 +326,10 @@ teaching:
 presentations:
     - paper: "Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation"
       talks:
+          - venue: Bank of Canada's FSRC Conference
+            location: Ottawa, Ontario
+            type: Conference
+            date: Oct 2025
           - venue: Western Finance Association
             location: Snowbird, UT
             type: Conference
@@ -359,6 +363,22 @@ presentations:
             coauthor: true
     - paper: "Mortgage Structure, Financial Stability, and Risk Sharing"
       talks:
+          - venue: Bank of Canada's Housing Workshop
+            location: Ottawa, Ontario
+            type: Conference
+            date: Sep 2025
+          - venue: WashU - St.Louis Fed Macro Finance Conference
+            location: St. Louis, MO
+            type: Conference
+            date: Sep 2025
+          - venue: European Finance Association
+            location: Paris, France
+            type: Conference
+            date: Aug 2025
+          - venue: European Summer Symposium in Financial Markets (ESSFM)
+            location: Gerzenzee, Switzerland
+            type: Conference
+            date: Jul 2025
           - venue: Western Finance Association
             location: Snowbird, UT
             type: Conference
@@ -372,6 +392,7 @@ presentations:
             location: Hoboken, NJ
             type: Conference
             date: May 2025
+            coauthor: true
           - venue: Columbia Workshop in New Empirical Finance
             location: New York, NY
             type: Conference
@@ -730,6 +751,12 @@ presentations:
 
 
 discussions:
+    - title: "The Value of Mortgage Choice: Payment Structure and Contract Length"
+      authors: Michael Boutros, Nuno Clara, Katya Kartashova
+      venue: European Finance Assocation Annual Meeting
+      location: Paris, France
+      date: "2025"
+      filename: "DiscussionSlides_elenev_LandvoigtShultzVanNieuwerburgh.pdf"
     - title: "Mortgage Rates and Rents: Evidence from Local Mortgage Lock-In Effects"
       authors: Jorge De la Roca, Marco Giacoletti, Lizhong Liu
       venue: Midwest Finance Association Annual Meeting
