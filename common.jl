@@ -5,15 +5,29 @@ cvdata = YAML.load(cvyaml);
 
 notblank(d,k) = k ∈ keys(d) && d[k] != ""
 
+function print_journal_status(paper)
+    span_tag_open = "<br><span class=\"journal-italic\">"
+    span_tag_close = "</span>"
+    if notblank(paper,"journal")
+        return span_tag_open * paper["journal"] * span_tag_close
+    elseif notblank(paper,"status")
+        if !contains(paper["status"], "Reject")
+            return span_tag_open * paper["status"] * span_tag_close
+        end
+    end
+    return ""
+end
+
 function print_paper(paper, presentations, type; include_by_coauthor=false)
     println("::: {.callout-$type collapse=\"true\"}")
     print("## <span class=\"title-bold\">", paper["title"], "</span>")
     print("<br><span class=\"authors-normal\">", paper["coauthors"], "</span>")
-    if notblank(paper,"journal")
-        println("<br><span class=\"journal-italic\">", paper["journal"], "</span>")
-    else
-        println()
-    end
+    # if notblank(paper,"journal")
+    #     println("<br><span class=\"journal-italic\">", paper["journal"], "</span>")
+    # else
+    #     println()
+    # end
+    println(print_journal_status(paper))
 
     println("<p>")
 

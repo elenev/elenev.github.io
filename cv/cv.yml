@@ -182,6 +182,7 @@ working-papers:
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4950528
     - title: "The Comovement of Voter Preferences: Insights from U.S. Presidential Election Prediction Markets Beyond Polls"
       coauthors: Mikhail Chernov, Vadim Elenev, Dongho Song
+      status: Revise and Resubmit at Journal of Econometrics
       abstract: > 
         We propose a novel time-series econometric framework to forecast U.S. Presidential election outcomes 
         in real time by combining polling data, economic fundamentals, and political prediction market prices. 
