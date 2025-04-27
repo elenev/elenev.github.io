@@ -339,6 +339,11 @@ presentations:
             location: Hoboken, NJ
             type: Conference
             date: May 2025
+          - venue: Bay Area Finance Workshop
+            location: Palo Alto, CA
+            type: Conference
+            date: May 2025
+            coauthor: true
           - venue: NBER Corporate Finance
             location: Chicago, IL
             type: Conference
@@ -378,6 +383,10 @@ presentations:
             date: Aug 2025
           - venue: European Summer Symposium in Financial Markets (ESSFM)
             location: Gerzenzee, Switzerland
+            type: Conference
+            date: Jul 2025
+          - venue: "NBER Summer Institute: Macro, Money, and Financial Frictions"
+            location: Cambridge, MA
             type: Conference
             date: Jul 2025
           - venue: Western Finance Association
@@ -814,7 +823,7 @@ discussions:
       filename: "DiscussionSlides_elenev_MabilleWang.pdf"
     - title: A Monetary Policy Asset Pricing Model
       authors: Ricardo Caballero and Alp Simsek
-      venue: Western Finance Association
+      venue: Western Finance Association Annual Meeting
       location: San Francisco, CA
       date: "2023"
       filename: "DiscussionSlides_elenev_CabelleroSimsek.pdf"
@@ -970,6 +979,8 @@ professional-service:
       items:
         - AREUEA National Conference
         - Western Finance Association Annual Meeting
+        - Northern Finance Association Annual Meeting
+        - SFS Cavalcade North American Meeting
         - ASSA-AREUEA Conference
         - JHU Carey Finance Conference 
     - title: Conference Organizer
