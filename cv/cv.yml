@@ -270,6 +270,18 @@ working-papers:
     
 
 works-in-progress:
+    - title: How will the U.S. Government Debt be Repaid?
+      coauthors: Vadim Elenev, Tim Landvoigt,  and Stijn Van Nieuwerburgh
+      abstract: >
+        We investigate fiscal sustainability in a New Keynesian model with an intermediary sector, 
+        realistic fiscal and monetary policy, and substantial risk premia. We propose a new indicator 
+        of fiscal capacity: the “austerity threshold.” It is the level of debt-to-GDP above which the 
+        government must increase fiscal surpluses to avoid future default. The threshold depends 
+        crucially on the source of higher surpluses: spending cuts or tax increases. Spending cuts 
+        achieve a higher threshold, since they reduce inflation and allow monetary policy to set low 
+        interest rates. Uncertainty about the policy regime in austerity lowers fiscal capacity. The 
+        expected austerity regime has large effects on asset prices even when debt-to-GDP is far from 
+        the threshold.
     - title: Reconstruction Land Ownership
       coauthors: Vadim Elenev, Luke Stein, and Constantine Yannelis
     - title: Transition Function Iteration
@@ -463,16 +475,16 @@ presentations:
           - venue: German Economists Abroad
             location: Mannheim, Germany
             type: Conference
-            date: Dec 2023
+            date: Dec 2022
             coauthor: true
           - venue: ITAM
             location: Mexico City, Mexico
             type: Seminar
-            date: Oct 2023
+            date: Oct 2022
           - venue: UVa Darden
             location: Charlottesville, VA
             type: Seminar
-            date: Sep 2023
+            date: Sep 2022
     - paper: Can Monetary Policy Create Fiscal Capacity?
       talks:
           - venue: American Economic Association
