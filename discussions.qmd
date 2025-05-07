@@ -25,8 +25,12 @@ for (i,d) in enumerate(cvdata["discussions"])
     venue = d["venue"]
     location = d["location"]
     date = d["date"]
+    
+    # Check if filename key exists 
+    if haskey(d, "filename")
     filename = "resources/discussions/" * d["filename"]
     println(" $i. [Discussion]($filename) of _$(title)_, by $authors, at the $venue in $date")
+    end
 end
 ```
 
