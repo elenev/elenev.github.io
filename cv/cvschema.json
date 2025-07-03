@@ -277,7 +277,7 @@
             "date": {"type": "string", "format": "string"},
             "filename": {"type": "string"}
           },
-          "required": ["title", "venue", "location", "date", "filename"]
+          "required": ["title", "venue", "location", "date"]
         }
       },
 
