@@ -352,6 +352,10 @@ presentations:
             location: Ottawa, Ontario
             type: Conference
             date: Oct 2025
+          - venue: The Micro and Macro of Financial Intermediation Workshop, Bank of Chile 
+            location: Santiago, Chile
+            type: Conference
+            date: Oct 2025
           - venue: Western Finance Association
             location: Snowbird, UT
             type: Conference
@@ -390,10 +394,15 @@ presentations:
             coauthor: true
     - paper: "Mortgage Structure, Financial Stability, and Risk Sharing"
       talks:
+          - venue: Holden Conference in Finance and Real Estate
+            location: Bloomington, Indiana
+            type: Conference
+            date: Sep 2025
+            coauthor: true
           - venue: Bank of Canada's Housing Workshop
             location: Ottawa, Ontario
             type: Conference
-            date: Sep 2025
+            date: Sep 2025        
           - venue: WashU - St.Louis Fed Macro Finance Conference
             location: St. Louis, MO
             type: Conference
@@ -406,6 +415,7 @@ presentations:
             location: Gerzenzee, Switzerland
             type: Conference
             date: Jul 2025
+            coauthor: true
           - venue: "NBER Summer Institute: Macro, Money, and Financial Frictions"
             location: Cambridge, MA
             type: Conference
@@ -1005,7 +1015,7 @@ professional-service:
         - JHU Carey Finance Conference 
     - title: Conference Organizer
       items:
-        - JHU Carey Finance Conference (2024)
+        - JHU Carey Finance Conference (2024-Present)
         - DC-Area Junior Finance Conference (2022)
     - title: Award Committee
       items: 
@@ -1014,6 +1024,20 @@ professional-service:
 advising:
     - institution: JHU Department of Economics Disserations -- Graduate Board Oral Examination Committee
       advisees:
+        - name: Andy Zheng
+          title: Essays on the Labor Market and Exchange Rates
+          date: "2025"
+          placement:
+            role: Economist
+            institution: International Monetary Fund
+            location: Washington, DC
+        - name: William Du 
+          title: Essays on Heterogeneous Agent Macroeconomics and Unemployment
+          date: "2025"
+          placement:
+            role: Consultant
+            institution: n/a
+            location: CA
         - name: Melih Firat
           title: Essays on the Phillips Curve and the U.S. Monetary Spillovers
           date: "2022"
