@@ -394,6 +394,16 @@ presentations:
             coauthor: true
     - paper: "Mortgage Structure, Financial Stability, and Risk Sharing"
       talks:
+          - venue: Wharton Conference on Liquidity and Financial Fragility
+            location: Philadelphia, PA
+            type: Conference
+            date: Oct 2025
+            coauthor: true
+          - venue: Princeton Macrofinance Conference
+            location: Princeton, NJ
+            type: Conference
+            date: Sep 2025
+            coauthor: true
           - venue: Holden Conference in Finance and Real Estate
             location: Bloomington, Indiana
             type: Conference
