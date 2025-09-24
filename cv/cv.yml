@@ -275,18 +275,22 @@ working-papers:
     
 
 works-in-progress:
-    - title: How will the U.S. Government Debt be Repaid?
-      coauthors: Vadim Elenev, Tim Landvoigt,  and Stijn Van Nieuwerburgh
+    - title: The Austerity Threshold
+      coauthors: Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh
       abstract: >
-        We investigate fiscal sustainability in a New Keynesian model with an intermediary sector, 
-        realistic fiscal and monetary policy, and substantial risk premia. We propose a new indicator 
-        of fiscal capacity: the “austerity threshold.” It is the level of debt-to-GDP above which the 
-        government must increase fiscal surpluses to avoid future default. The threshold depends 
-        crucially on the source of higher surpluses: spending cuts or tax increases. Spending cuts 
-        achieve a higher threshold, since they reduce inflation and allow monetary policy to set low 
-        interest rates. Uncertainty about the policy regime in austerity lowers fiscal capacity. The 
-        expected austerity regime has large effects on asset prices even when debt-to-GDP is far from 
-        the threshold.
+        We study fiscal sustainability in model with an intermediary sector, 
+        realistic risk premia and nominal rigidities. We introduce a new 
+        indicator of fiscal capacity—the “austerity threshold”: the 
+        debt-to-GDP level above which the government must raise fiscal 
+        surpluses to ensure debt safety. For the U.S., we estimate this 
+        threshold at 195\%. We highlight the roles of safety premia and 
+        intermediation-driven convenience yields in shaping it. The threshold 
+        varies with the source of surpluses: spending cuts reduce inflation 
+        and allow low interest rates, while tax increases distort labor 
+        supply and raise inflation. Uncertainty over the austerity regime 
+        -- spending cuts or tax increases -- sharply lowers fiscal capacity. 
+        The expected austerity regime affects asset prices and macro outcomes 
+        even when debt-to-GDP is well below the threshold.
     - title: "Private Equity and the Lifecycle of the Firm"
       coauthors: Vadim Elenev, Vrinda Mittal 
     - title: "Fiscal and Monetary Defaults"
@@ -349,13 +353,17 @@ presentations:
     - paper: "Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation"
       talks:
           - venue: Bank of Canada's FSRC Conference
-            location: Ottawa, Ontario
+            location: Ottawa, ON
             type: Conference
             date: Oct 2025
           - venue: The Micro and Macro of Financial Intermediation Workshop, Bank of Chile 
             location: Santiago, Chile
             type: Conference
             date: Oct 2025
+          - venue: Indiana Kelley
+            location: Bloombington, IN 
+            type: Seminar
+            date: Sep 2025
           - venue: Western Finance Association
             location: Snowbird, UT
             type: Conference
@@ -405,14 +413,18 @@ presentations:
             date: Sep 2025
             coauthor: true
           - venue: Holden Conference in Finance and Real Estate
-            location: Bloomington, Indiana
+            location: Bloomington, IN
             type: Conference
             date: Sep 2025
             coauthor: true
           - venue: Bank of Canada's Housing Workshop
-            location: Ottawa, Ontario
+            location: Ottawa, ON
             type: Conference
-            date: Sep 2025        
+            date: Sep 2025   
+          - venue: UIUC Gies
+            location: Urbana, IL
+            type: Seminar
+            date: Sep 2025
           - venue: WashU - St.Louis Fed Macro Finance Conference
             location: St. Louis, MO
             type: Conference
@@ -807,6 +819,7 @@ discussions:
       venue: European Finance Assocation Annual Meeting
       location: Paris, France
       date: "2025"
+      filename: "DiscussionSlides_elenev_BoutrosClaraKartashova.pdf"
     - title: "Mortgage Rates and Rents: Evidence from Local Mortgage Lock-In Effects"
       authors: Jorge De la Roca, Marco Giacoletti, Lizhong Liu
       venue: Midwest Finance Association Annual Meeting
