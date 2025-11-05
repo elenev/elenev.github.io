@@ -213,12 +213,13 @@ working-papers:
         several percentage points. We find Pennsylvania to be the most pivotal state in the 2024 election, followed 
         by Nevada. Our results provide insights for election observers, candidates, and traders.
       urls:
-        - text: NBER
-          href: https://www.nber.org/papers/w33339?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg28   
+        - text: Latest
+          href: resources/CES_election_latest.pdf
         - text: SSRN (Realtime Forecast)
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4998858         
     - title: "Mortgage Structure, Financial Stability, and Risk Sharing"
       coauthors: Vadim Elenev, Lu Liu
+      status: Reject and Resubmit at The Journal of Finance
       abstract: >
         Mortgage structure matters not only for monetary policy transmission, but 
         also for financial stability. Adjustable-rate mortgages (ARMs) expose 
