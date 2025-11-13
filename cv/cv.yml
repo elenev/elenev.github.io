@@ -356,6 +356,10 @@ teaching:
 presentations:
     - paper: The Austerity Threshold
       talks:
+          - venue: SF Fed Macro and Monetary Policy Conference
+            location: San Francisco, CA
+            type: Conference
+            date: Mar 2026
           - venue: NBER Economic Fluctuations and Growth
             location: New York, NY 
             type: Conference
@@ -363,6 +367,10 @@ presentations:
             coauthor: true
     - paper: "Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation"
       talks:
+          - venue: Jackson Hole Finance Group Conference
+            location: Teton Village, WY
+            type: Conference
+            date: Jan 2026
           - venue: Bank of Canada's FSRC Conference
             location: Ottawa, ON
             type: Conference
@@ -372,7 +380,7 @@ presentations:
             type: Conference
             date: Oct 2025
           - venue: Indiana Kelley
-            location: Bloombington, IN 
+            location: Bloomington, IN 
             type: Seminar
             date: Sep 2025
           - venue: Western Finance Association
@@ -413,6 +421,10 @@ presentations:
             coauthor: true
     - paper: "Mortgage Structure, Financial Stability, and Risk Sharing"
       talks:
+          - venue: ITAM Finance Conference
+            location: Mexico City, Mexico
+            type: Conference
+            date: Feb 2026
           - venue: Wharton Conference on Liquidity and Financial Fragility
             location: Philadelphia, PA
             type: Conference
