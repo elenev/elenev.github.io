@@ -356,7 +356,7 @@ teaching:
 presentations:
     - paper: The Austerity Threshold
       talks:
-          - venue: SF Fed Macro and Monetary Policy Conference
+          - venue: SF Fed Macro and Monetary Policy
             location: San Francisco, CA
             type: Conference
             date: Mar 2026
@@ -837,6 +837,12 @@ presentations:
 
 
 discussions:
+    - title: "Fiscal Redistribution Risk in Treasury Markets"
+      authors: Roberto Gomez-Cram, Howard Kung, Hanno Lustig, and David Zeke
+      venue: Macro Finance Society Workshop
+      location: Chicago, IL
+      date: "2025"
+      filename: "DiscussionSlides_elenev_GomezCramKungLustigZeke.pdf"
     - title: "The Value of Mortgage Choice: Payment Structure and Contract Length"
       authors: Michael Boutros, Nuno Clara, Katya Kartashova
       venue: European Finance Assocation Annual Meeting
@@ -1082,8 +1088,8 @@ advising:
           date: "2025"
           placement:
             role: Consultant
-            institution: n/a
-            location: CA
+            institution: Secretariat
+            location: San Diego, CA
         - name: Melih Firat
           title: Essays on the Phillips Curve and the U.S. Monetary Spillovers
           date: "2022"
@@ -1128,8 +1134,10 @@ advising:
             location: Washington, DC
             
 university-service:
+    - title: AACSB Faculty Qualifications Committee
+      dates: "2025-Present"
     - title: Carey Faculty Advisory Council
-      dates: 2023-Present
+      dates: 2023-2025
     - title: Nexus Awards Reviewer
       dates: "2025"
     - title: Finance External Speaker Seminar Series Coordinator
