@@ -360,6 +360,10 @@ presentations:
             location: San Francisco, CA
             type: Conference
             date: Mar 2026
+          - venue: Utah Winter Finance Conference
+            location: Snowbird, UT
+            type: Conference
+            date: Feb 2026
           - venue: NBER Economic Fluctuations and Growth
             location: New York, NY 
             type: Conference
@@ -631,7 +635,7 @@ presentations:
           - venue: Midwest Finance Association
             location: Virtual
             type: Keynote
-            date: Jan 1900
+            date: Aug 2020
             coauthor: true
     - paper: A Macroeconomic Model with Financially Constrained Producers and Intermediaries
       talks:
