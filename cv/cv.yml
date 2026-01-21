@@ -183,6 +183,25 @@ publications:
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4998858          
 
 working-papers: 
+    - title: The Austerity Threshold
+      coauthors: Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh
+      abstract: >
+        We study fiscal sustainability in model with an intermediary sector, 
+        realistic risk premia and nominal rigidities. We introduce a new 
+        indicator of fiscal capacity—the “austerity threshold”: the 
+        debt-to-GDP level above which the government must raise fiscal 
+        surpluses to ensure debt safety. For the U.S., we estimate this 
+        threshold at 195\%. We highlight the roles of safety premia and 
+        intermediation-driven convenience yields in shaping it. The threshold 
+        varies with the source of surpluses: spending cuts reduce inflation 
+        and allow low interest rates, while tax increases distort labor 
+        supply and raise inflation. Uncertainty over the austerity regime 
+        -- spending cuts or tax increases -- sharply lowers fiscal capacity. 
+        The expected austerity regime affects asset prices and macro outcomes 
+        even when debt-to-GDP is well below the threshold.
+      urls:
+        - text: SSRN
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5523180
     - title: Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation
       coauthors: Juliane Begenau, Vadim Elenev, and Tim Landvoigt
       abstract: >
@@ -202,6 +221,7 @@ working-papers:
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4950528       
     - title: "Mortgage Structure, Financial Stability, and Risk Sharing"
       coauthors: Vadim Elenev, Lu Liu
+      status: Reject and Resubmit at The Journal of Finance
       abstract: >
         Mortgage structure matters not only for monetary policy transmission, but 
         also for financial stability. Adjustable-rate mortgages (ARMs) expose 
@@ -277,20 +297,12 @@ working-papers:
     
 
 works-in-progress:
-    - title: How will the U.S. Government Debt be Repaid?
-      coauthors: Vadim Elenev, Tim Landvoigt,  and Stijn Van Nieuwerburgh
-      abstract: >
-        We investigate fiscal sustainability in a New Keynesian model with an intermediary sector, 
-        realistic fiscal and monetary policy, and substantial risk premia. We propose a new indicator 
-        of fiscal capacity: the “austerity threshold.” It is the level of debt-to-GDP above which the 
-        government must increase fiscal surpluses to avoid future default. The threshold depends 
-        crucially on the source of higher surpluses: spending cuts or tax increases. Spending cuts 
-        achieve a higher threshold, since they reduce inflation and allow monetary policy to set low 
-        interest rates. Uncertainty about the policy regime in austerity lowers fiscal capacity. The 
-        expected austerity regime has large effects on asset prices even when debt-to-GDP is far from 
-        the threshold.
-    - title: Reconstruction Land Ownership
-      coauthors: Vadim Elenev, Luke Stein, and Constantine Yannelis
+    - title: "Private Equity and the Lifecycle of the Firm"
+      coauthors: Vadim Elenev, Vrinda Mittal 
+    - title: "Fiscal and Monetary Defaults"
+      coauthors: Vadim Elenev, Lu Liu, Quentin Vandeweyer
+    # - title: Reconstruction Land Ownership
+    #   coauthors: Vadim Elenev, Luke Stein, and Constantine Yannelis
     - title: Transition Function Iteration
       coauthors: Vadim Elenev, Tim Landvoigt
     
@@ -344,16 +356,43 @@ teaching:
           level: Undergraduate
 
 presentations:
+    - paper: The Austerity Threshold
+      talks:
+          - venue: SF Fed Macro and Monetary Policy
+            location: San Francisco, CA
+            type: Conference
+            date: Mar 2026
+          - venue: NBER Long Term Fiscal Policy
+            location: Cambridge, MA
+            type: Conference
+            date: Feb 2026
+          - venue: Utah Winter Finance Conference
+            location: Snowbird, UT
+            type: Conference
+            date: Feb 2026
+          - venue: NBER Economic Fluctuations and Growth
+            location: New York, NY 
+            type: Conference
+            date: Oct 2025
+            coauthor: true
     - paper: "Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation"
       talks:
+          - venue: Jackson Hole Finance Group Conference
+            location: Teton Village, WY
+            type: Conference
+            date: Jan 2026
           - venue: Bank of Canada's FSRC Conference
-            location: Ottawa, Ontario
+            location: Ottawa, ON
             type: Conference
             date: Oct 2025
           - venue: The Micro and Macro of Financial Intermediation Workshop, Bank of Chile 
             location: Santiago, Chile
             type: Conference
             date: Oct 2025
+          - venue: Indiana Kelley
+            location: Bloomington, IN 
+            type: Seminar
+            date: Sep 2025
           - venue: Western Finance Association
             location: Snowbird, UT
             type: Conference
@@ -392,15 +431,33 @@ presentations:
             coauthor: true
     - paper: "Mortgage Structure, Financial Stability, and Risk Sharing"
       talks:
+          - venue: ITAM Finance Conference
+            location: Mexico City, Mexico
+            type: Conference
+            date: Feb 2026
+          - venue: Wharton Conference on Liquidity and Financial Fragility
+            location: Philadelphia, PA
+            type: Conference
+            date: Oct 2025
+            coauthor: true
+          - venue: Princeton Macrofinance Conference
+            location: Princeton, NJ
+            type: Conference
+            date: Sep 2025
+            coauthor: true
           - venue: Holden Conference in Finance and Real Estate
-            location: Bloomington, Indiana
+            location: Bloomington, IN
             type: Conference
             date: Sep 2025
             coauthor: true
           - venue: Bank of Canada's Housing Workshop
-            location: Ottawa, Ontario
+            location: Ottawa, ON
             type: Conference
-            date: Sep 2025        
+            date: Sep 2025   
+          - venue: UIUC Gies
+            location: Urbana, IL
+            type: Seminar
+            date: Sep 2025
           - venue: WashU - St.Louis Fed Macro Finance Conference
             location: St. Louis, MO
             type: Conference
@@ -584,7 +641,7 @@ presentations:
           - venue: Midwest Finance Association
             location: Virtual
             type: Keynote
-            date: Jan 1900
+            date: Aug 2020
             coauthor: true
     - paper: A Macroeconomic Model with Financially Constrained Producers and Intermediaries
       talks:
@@ -790,11 +847,18 @@ presentations:
 
 
 discussions:
+    - title: "Fiscal Redistribution Risk in Treasury Markets"
+      authors: Roberto Gomez-Cram, Howard Kung, Hanno Lustig, and David Zeke
+      venue: Macro Finance Society Workshop
+      location: Chicago, IL
+      date: "2025"
+      filename: "DiscussionSlides_elenev_GomezCramKungLustigZeke.pdf"
     - title: "The Value of Mortgage Choice: Payment Structure and Contract Length"
       authors: Michael Boutros, Nuno Clara, Katya Kartashova
       venue: European Finance Assocation Annual Meeting
       location: Paris, France
       date: "2025"
+      filename: "DiscussionSlides_elenev_BoutrosClaraKartashova.pdf"
     - title: "Mortgage Rates and Rents: Evidence from Local Mortgage Lock-In Effects"
       authors: Jorge De la Roca, Marco Giacoletti, Lizhong Liu
       venue: Midwest Finance Association Annual Meeting
@@ -1035,8 +1099,8 @@ advising:
           date: "2025"
           placement:
             role: Consultant
-            institution: n/a
-            location: CA
+            institution: Secretariat
+            location: San Diego, CA
         - name: Melih Firat
           title: Essays on the Phillips Curve and the U.S. Monetary Spillovers
           date: "2022"
@@ -1081,8 +1145,10 @@ advising:
             location: Washington, DC
             
 university-service:
+    - title: AACSB Faculty Qualifications Committee
+      dates: "2025-Present"
     - title: Carey Faculty Advisory Council
-      dates: 2023-Present
+      dates: 2023-2025
     - title: Nexus Awards Reviewer
       dates: "2025"
     - title: Finance External Speaker Seminar Series Coordinator

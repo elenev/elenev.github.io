@@ -19,6 +19,7 @@ Below are links to slides accompanying discussions I have given at various confe
 
 ```{julia}
 #| output: asis
+counter = 1
 for (i,d) in enumerate(cvdata["discussions"])
     title = d["title"]
     authors = d["authors"]
@@ -28,8 +29,9 @@ for (i,d) in enumerate(cvdata["discussions"])
     
     # Check if filename key exists 
     if haskey(d, "filename")
-    filename = "resources/discussions/" * d["filename"]
-    println(" $i. [Discussion]($filename) of _$(title)_, by $authors, at the $venue in $date")
+        filename = "resources/discussions/" * d["filename"]
+        println(" $counter. [Discussion]($filename) of _$(title)_, by $authors, at the $venue in $date")
+        counter += 1
     end
 end
 ```
