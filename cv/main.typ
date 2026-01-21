@@ -67,7 +67,7 @@
 }
 
 #let my_paper(d) = {
-  block([
+  block(breakable: false, [
     *#d.title* \
     #d.coauthors
     #if nonblank(d,"journal") [

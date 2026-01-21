@@ -143,6 +143,7 @@ publications:
     - title: "Staggered Health Policy Adoption: Spillover Effects and Their Implications"
       coauthors: Vadim Elenev, Luis Quintero, Alessandro Rebucci, and Emilia Simeonova
       journal: Management Science
+      biblio: "August 2025, Vol. 71, Issue 8: 7071-7093"
       urls:
         - text: SSRN
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3657594
@@ -163,7 +164,7 @@ publications:
         are larger than coordinated but delayed SHO policy adoption.
     - title: "The Comovement of Voter Preferences: Insights from U.S. Presidential Election Prediction Markets Beyond Polls"
       coauthors: Mikhail Chernov, Vadim Elenev, Dongho Song
-      status: Accepted at Journal of Econometrics
+      journal: Accepted at Journal of Econometrics
       abstract: > 
         We propose a novel time-series econometric framework to forecast U.S. Presidential election
         outcomes in real time by combining polling data, economic fundamentals, and political prediction 
