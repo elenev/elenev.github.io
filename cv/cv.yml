@@ -164,7 +164,8 @@ publications:
         are larger than coordinated but delayed SHO policy adoption.
     - title: "The Comovement of Voter Preferences: Insights from U.S. Presidential Election Prediction Markets Beyond Polls"
       coauthors: Mikhail Chernov, Vadim Elenev, Dongho Song
-      journal: Accepted at Journal of Econometrics
+      journal: Journal of Econometrics
+      biblio: "Available online 3 February 2026, 106192"
       abstract: > 
         We propose a novel time-series econometric framework to forecast U.S. Presidential election
         outcomes in real time by combining polling data, economic fundamentals, and political prediction 
@@ -181,8 +182,9 @@ publications:
         - text: NBER
           href: https://www.nber.org/papers/w33339?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg28   
         - text: SSRN (Realtime Forecast)
-          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4998858          
-
+          href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4998858  
+        - text: Journal
+          href: https://authors.elsevier.com/c/1mYez15DjiQYSA        
 working-papers: 
     - title: The Austerity Threshold
       coauthors: Vadim Elenev, Tim Landvoigt, and Stijn Van Nieuwerburgh

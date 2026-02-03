@@ -35,8 +35,9 @@ website:
   announcement:
      icon: info-circle
      dismissable: true
-     content: "**New Working Paper**: [The Austerity Threshold](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5523180)"
+  #   content: "**New Working Paper**: [The Austerity Threshold](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5523180)"
   #   content: "**Call for Papers**: [2025 Carey Finance Conference](https://www.brownbag.org/conference/carey-finance-2025#about) | Deadline: May 18 | Oct 16-17 | Baltimore, MD."
+     content: "**New Publication**: [The Comovement of Voter Preferences](https://authors.elsevier.com/c/1mYez15DjiQYSA) in *Journal of Econometrics*."
      type: primary
      position: below-navbar
   
