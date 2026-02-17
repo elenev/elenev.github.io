@@ -361,13 +361,40 @@ teaching:
 presentations:
     - paper: The Austerity Threshold
       talks:
+          - venue: Western Finance Association
+            location: Denver, CO
+            type: Conference
+            date: Jun 2026
+            coauthor: true
+          - venue: Financial Intermediation Research Society
+            location: Miami, FL
+            type: Conference
+            date: May 2026
+          - venue: Texas Monetary Conference
+            location: Houston, TX
+            type: Conference
+            date: May 2026
+          - venue: IMF-ECB workshop on Fiscal Policy and Sovereign Debt
+            location: Washington, DC
+            type: Conference
+            date: Apr 2026
+          - venue: American Enterprise Institute
+            location: Washington, DC
+            type: Seminar
+            date: Apr 2026
           - venue: SF Fed Macro and Monetary Policy
             location: San Francisco, CA
             type: Conference
             date: Mar 2026
+            coauthor: true
           - venue: NBER Long Term Fiscal Policy
             location: Cambridge, MA
             type: Conference
+            date: Feb 2026
+            coauthor: true
+          - venue: Richmond Fed 
+            location: Richmond, VA
+            type: Seminar
             date: Feb 2026
           - venue: Utah Winter Finance Conference
             location: Snowbird, UT
@@ -380,6 +407,14 @@ presentations:
             coauthor: true
     - paper: "Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation"
       talks:
+          - venue: Chicago Fed
+            location: Chicago, IL
+            type: Seminar
+            date: Feb 2026
+          - venue: Colorado
+            location: Boulder, CO
+            type: Seminar
+            date: Jan 2026
           - venue: Jackson Hole Finance Group Conference
             location: Teton Village, WY
             type: Conference
@@ -434,6 +469,10 @@ presentations:
             coauthor: true
     - paper: "Mortgage Structure, Financial Stability, and Risk Sharing"
       talks:
+          - venue: Adam Smith Workshop
+            location: London, U.K.
+            type: Conference
+            date: Apr 2026
           - venue: ITAM Finance Conference
             location: Mexico City, Mexico
             type: Conference
