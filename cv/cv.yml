@@ -246,7 +246,7 @@ working-papers:
       urls:
         - text: SSRN
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5014602
-    - title: Asset Pricing with Optimal Under-Diversification
+    - title: Asset Pricing with Under-Diversification
       coauthors: Vadim Elenev, Tim Landvoigt
       urls:
         - text: SSRN
