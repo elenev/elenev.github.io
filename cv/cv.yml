@@ -551,7 +551,7 @@ presentations:
             location: Washington, DC
             type: Conference
             date: May 2024
-    - paper: Asset Pricing with Optimal Under-Diversification
+    - paper: Asset Pricing with Under-Diversification
       talks:
           - venue: Midwest Finance Association
             location: Chicago, IL
