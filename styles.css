@@ -23,3 +23,18 @@ a {
 a:hover, a:focus {
     text-decoration: underline; /* Adds an underline on hover or focus for better accessibility */
 }
+
+.lang-tag {
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    font-size: 0.72em;
+    font-weight: 500;
+    border-radius: 3px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+.lang-julia  { color: #7a3fa0; border-color: #c49ee0; }
+.lang-python { color: #2a6096; border-color: #88b8e0; }
+.lang-matlab { color: #c04f15; border-color: #f0a880; }
+.lang-quarto { color: #2e5f82; border-color: #80b0cc; }
+.lang-typst  { color: #1a8a82; border-color: #6eccc6; }

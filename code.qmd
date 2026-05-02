@@ -1,0 +1,48 @@
+---
+title: "Code"
+toc-expand: true
+---
+
+## Public Goods
+
+### [elenev.github.io](https://github.com/elenev/elenev.github.io){target="_blank"}
+
+<span class="lang-tag lang-quarto">Quarto</span> <span class="lang-tag lang-julia">Julia</span> <span class="lang-tag lang-typst">Typst</span> Source code for this academic website. A central YAML data file keeps publications, CV, and presentations in sync across pages, and drives a Typst-generated PDF CV.
+
+### [BayesianVARs.jl](https://github.com/elenev/BayesianVARs.jl){target="_blank"}
+
+<span class="lang-tag lang-julia">Julia</span> Package for Bayesian estimation of Vector Autoregressions. Supports multiple prior specifications including Minnesota and natural conjugate priors, suitable for structural identification and forecasting.
+
+### [FRED.jl](https://github.com/elenev/FRED.jl){target="_blank"}
+
+<span class="lang-tag lang-julia">Julia</span> Interface to the Federal Reserve Economic Data (FRED) API. Provides a simple API for downloading macroeconomic time series from FRED's database of hundreds of thousands of series.
+
+### [FOMCMeetings.jl](https://github.com/elenev/FOMCMeetings.jl){target="_blank"}
+
+<span class="lang-tag lang-julia">Julia</span> Package that scrapes and returns FOMC meeting dates. Provides historical and scheduled Federal Reserve policy meeting dates for use in event studies and high-frequency identification.
+
+### [WRDS.jl](https://github.com/elenev/WRDS.jl){target="_blank"}
+
+<span class="lang-tag lang-julia">Julia</span> Interface to Wharton Research Data Services (WRDS), inspired by the official Python package. Enables querying Compustat, CRSP, and other WRDS databases directly.
+
+### [ManagedDataSources.jl](https://github.com/elenev/ManagedDataSources.jl){target="_blank"}
+
+<span class="lang-tag lang-julia">Julia</span> Package providing a unified abstraction for managing data sources across locations and formats. Designed for reproducible research workflows involving heterogeneous datasets stored locally or in the cloud.
+
+### [localprojections](https://github.com/elenev/localprojections){target="_blank"}
+
+<span class="lang-tag lang-python">Python</span> Implementation of Jordà (2005) local projections for impulse response estimation. A lightweight, sklearn-style tool for local projection regressions commonly used in empirical macroeconomics.
+
+### [fof](https://github.com/elenev/fof){target="_blank"}
+
+<span class="lang-tag lang-python">Python</span> Downloader for the Federal Reserve's Flow of Funds (Financial Accounts, Z.1 release). Provides a convenient interface to balance sheet data for all sectors of the U.S. economy.
+
+## Replication Packages
+
+### [CovidBailouts](https://github.com/elenev/CovidBailouts){target="_blank"}
+
+<span class="lang-tag lang-matlab">MATLAB</span> Code replicating the quantitative results of "Can the Covid Bailouts Save the Economy?" (Elenev, Landvoigt, Van Nieuwerburgh).
+
+### [MacroModelProducersIntermediaries](https://github.com/elenev/MacroModelProducersIntermediaries){target="_blank"}
+
+<span class="lang-tag lang-matlab">MATLAB</span> Code replicating the quantitative results of "A Macroeconomic Model with Financially Constrained Producers and Intermediaries" (Elenev, Landvoigt, Van Nieuwerburgh).

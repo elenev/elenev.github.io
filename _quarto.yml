@@ -21,7 +21,7 @@ website:
         text: CV
       - href: discussions.qmd
         text: Discussions
-      - href: http://www.github.com/elenev
+      - href: code.qmd
         text: Code
     tools:
       - icon: filetype-pdf
