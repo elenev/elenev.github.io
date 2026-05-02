@@ -7,7 +7,7 @@ toc-expand: true
 
 ### [elenev.github.io](https://github.com/elenev/elenev.github.io){target="_blank"}
 
-<span class="lang-tag lang-quarto">Quarto</span> <span class="lang-tag lang-julia">Julia</span> <span class="lang-tag lang-typst">Typst</span> Source code for this academic website. A central YAML data file keeps publications, CV, and presentations in sync across pages, and drives a Typst-generated PDF CV.
+<span class="lang-tag lang-quarto">Quarto</span> <span class="lang-tag lang-julia">Julia</span> <span class="lang-tag lang-typst">Typst</span> Source code for this website. A central YAML data file keeps publications, CV, and presentations in sync across pages, and drives a Typst-generated PDF CV.
 
 ### [BayesianVARs.jl](https://github.com/elenev/BayesianVARs.jl){target="_blank"}
 
@@ -15,7 +15,7 @@ toc-expand: true
 
 ### [FRED.jl](https://github.com/elenev/FRED.jl){target="_blank"}
 
-<span class="lang-tag lang-julia">Julia</span> Interface to the Federal Reserve Economic Data (FRED) API. Provides a simple API for downloading macroeconomic time series from FRED's database of hundreds of thousands of series.
+<span class="lang-tag lang-julia">Julia</span> Interface to the Federal Reserve Economic Data (FRED) API. Provides a simple API for downloading macroeconomic time series from the St. Louis Fed's FRED database.
 
 ### [FOMCMeetings.jl](https://github.com/elenev/FOMCMeetings.jl){target="_blank"}
 
