@@ -91,6 +91,27 @@
     "text": "Personal\n\nU.S. Citizen\nLanguage Proficiency: English (native), Russian (native), French (basic)"
   },
   {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Quarto Julia Typst Source code for this academic website. A central YAML data file keeps publications, CV, and presentations in sync across pages, and drives a Typst-generated PDF CV.\n\n\n\nJulia Package for Bayesian estimation of Vector Autoregressions. Supports multiple prior specifications including Minnesota and natural conjugate priors, suitable for structural identification and forecasting.\n\n\n\nJulia Interface to the Federal Reserve Economic Data (FRED) API. Provides a simple API for downloading macroeconomic time series from FRED’s database of hundreds of thousands of series.\n\n\n\nJulia Package that scrapes and returns FOMC meeting dates. Provides historical and scheduled Federal Reserve policy meeting dates for use in event studies and high-frequency identification.\n\n\n\nJulia Interface to Wharton Research Data Services (WRDS), inspired by the official Python package. Enables querying Compustat, CRSP, and other WRDS databases directly.\n\n\n\nJulia Package providing a unified abstraction for managing data sources across locations and formats. Designed for reproducible research workflows involving heterogeneous datasets stored locally or in the cloud.\n\n\n\nPython Implementation of Jordà (2005) local projections for impulse response estimation. A lightweight, sklearn-style tool for local projection regressions commonly used in empirical macroeconomics.\n\n\n\nPython Downloader for the Federal Reserve’s Flow of Funds (Financial Accounts, Z.1 release). Provides a convenient interface to balance sheet data for all sectors of the U.S. economy."
+  },
+  {
+    "objectID": "code.html#public-goods",
+    "href": "code.html#public-goods",
+    "title": "Code",
+    "section": "",
+    "text": "Quarto Julia Typst Source code for this academic website. A central YAML data file keeps publications, CV, and presentations in sync across pages, and drives a Typst-generated PDF CV.\n\n\n\nJulia Package for Bayesian estimation of Vector Autoregressions. Supports multiple prior specifications including Minnesota and natural conjugate priors, suitable for structural identification and forecasting.\n\n\n\nJulia Interface to the Federal Reserve Economic Data (FRED) API. Provides a simple API for downloading macroeconomic time series from FRED’s database of hundreds of thousands of series.\n\n\n\nJulia Package that scrapes and returns FOMC meeting dates. Provides historical and scheduled Federal Reserve policy meeting dates for use in event studies and high-frequency identification.\n\n\n\nJulia Interface to Wharton Research Data Services (WRDS), inspired by the official Python package. Enables querying Compustat, CRSP, and other WRDS databases directly.\n\n\n\nJulia Package providing a unified abstraction for managing data sources across locations and formats. Designed for reproducible research workflows involving heterogeneous datasets stored locally or in the cloud.\n\n\n\nPython Implementation of Jordà (2005) local projections for impulse response estimation. A lightweight, sklearn-style tool for local projection regressions commonly used in empirical macroeconomics.\n\n\n\nPython Downloader for the Federal Reserve’s Flow of Funds (Financial Accounts, Z.1 release). Provides a convenient interface to balance sheet data for all sectors of the U.S. economy."
+  },
+  {
+    "objectID": "code.html#replication-packages",
+    "href": "code.html#replication-packages",
+    "title": "Code",
+    "section": "Replication Packages",
+    "text": "Replication Packages\n\nCovidBailouts\nMATLAB Code replicating the quantitative results of “Can the Covid Bailouts Save the Economy?” (Elenev, Landvoigt, Van Nieuwerburgh).\n\n\nMacroModelProducersIntermediaries\nMATLAB Code replicating the quantitative results of “A Macroeconomic Model with Financially Constrained Producers and Intermediaries” (Elenev, Landvoigt, Van Nieuwerburgh)."
+  },
+  {
     "objectID": "discussions.html",
     "href": "discussions.html",
     "title": "Discussions",
