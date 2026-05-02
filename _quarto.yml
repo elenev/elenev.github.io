@@ -8,7 +8,7 @@ website:
   title: "Vadim Elenev"
   twitter-card:
     creator: "@VadimElenev"
-    description: "Vadim Elenev, Assistant Professor at Johns Hopkins Carey Business School working on macroeconomics and finance."
+    description: "Vadim Elenev, Associate Professor at Johns Hopkins Carey Business School working on macroeconomics and finance."
     image: resources/Headshot.jpg
     card-style: summary
   open-graph: true
