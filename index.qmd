@@ -14,7 +14,7 @@ about:
   links:
     - icon: envelope-at
       text: Email
-      href: mailto:velenev@jhu.edu 
+      href: mailto:vadim@vadimelenev.com 
     - icon: twitter-x
       text: X (Twitter)
       href: https://twitter.com/VadimElenev
