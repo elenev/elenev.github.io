@@ -14,7 +14,7 @@ about:
   links:
     - icon: envelope-at
       text: Email
-      href: mailto:velenev@jhu.edu 
+      href: mailto:vadim@vadimelenev.com 
     - icon: twitter-x
       text: X (Twitter)
       href: https://twitter.com/VadimElenev
@@ -33,6 +33,8 @@ callout-appearance: minimal
 Vadim Elenev is an Associate Professor at Johns Hopkins Carey Business School. He specializes in macro finance, with a focus on financial intermediation, monetary policy, and real estate.
 
 Prof. Elenev earned his Ph.D. in Finance from New York University Stern School of Business and a B.A. in Economics and Mathematics from the University of Virginia. His research has been published in various journals including _Econometrica_ and _Journal of Financial Economics_. His work explores the impact of financial crises, government responses to economic downturns, and the effects of monetary policy.
+
+In July 2026, Prof. Elenev will join the David Eccles School of Business at the University of Utah.
 
 :::
 

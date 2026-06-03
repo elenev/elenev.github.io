@@ -2,7 +2,7 @@
 
 identity:
     name: Vadim Elenev
-    email: velenev@jhu.edu
+    email: vadim@vadimelenev.com
     phone: +1.914.426.4604
     website: www.vadimelenev.com
     
@@ -19,10 +19,16 @@ identity:
        url: https://github.com/elenev
     
 academic-positions:
+    - institution: David Eccles School of Business, University of Utah 
+      location: Salt Lake City, UT
+      positions:
+        - title: Associate Professor
+          dates: Starting July 2026
+
     - institution: Johns Hopkins Carey Business School
       location: Baltimore, MD
       positions:
-        - title: Associate Professor (without tenure)
+        - title: Associate Professor
           dates: 2024-Present
         - title: Assistant Professor
           dates: 2017-2024
@@ -207,6 +213,7 @@ working-papers:
           href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5523180
     - title: Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential Regulation
       coauthors: Juliane Begenau, Vadim Elenev, and Tim Landvoigt
+      status: Revise and Resubmit at The Journal of Finance
       abstract: >
         This paper investigates the financial stability consequences of banks' interest rate risk 
         exposure and uninsured deposit funding share. We develop a model incorporating insured and 
@@ -361,6 +368,10 @@ teaching:
 presentations:
     - paper: The Austerity Threshold
       talks:
+          - venue: European Finance Association
+            location: Ghent, Belgium
+            type: Conference
+            date: Aug 2026
           - venue: Western Finance Association
             location: Denver, CO
             type: Conference
