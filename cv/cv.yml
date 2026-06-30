@@ -900,6 +900,18 @@ presentations:
 
 
 discussions:
+    - title: "Interest Rate Risk and Bank Hedging"
+      authors: Zhiguo He, Arvind Krishnamurthy, and Konstantin Milbradt
+      venue: Financial Intermediation Research Society Annual Conference
+      location: Miami, FL
+      date: "2026"
+      filename: "DiscussionSlides_elenev_HeKrishnamurthyMilbradt.pdf"
+    - title: "The Rise of Shareholder Capitalism: Macroeconomic Implications"
+      authors: François Gourio and Alessandro T. Villa
+      venue: SFS Cavalcade
+      location: Charlottesville, VA
+      date: "2026"
+      filename: "DiscussionSlides_elenev_GourioVilla.pdf"
     - title: "Fiscal Redistribution Risk in Treasury Markets"
       authors: Roberto Gomez-Cram, Howard Kung, Hanno Lustig, and David Zeke
       venue: Macro Finance Society Workshop
