@@ -309,8 +309,8 @@ working-papers:
 works-in-progress:
     - title: "Private Equity and the Lifecycle of the Firm"
       coauthors: Vadim Elenev, Vrinda Mittal 
-    - title: "Fiscal and Monetary Defaults"
-      coauthors: Vadim Elenev, Lu Liu, Quentin Vandeweyer
+    #- title: "Fiscal and Monetary Defaults"
+    #  coauthors: Vadim Elenev, Lu Liu, Quentin Vandeweyer
     # - title: Reconstruction Land Ownership
     #   coauthors: Vadim Elenev, Luke Stein, and Constantine Yannelis
     - title: Transition Function Iteration
